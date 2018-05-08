@@ -24,6 +24,8 @@
 + (void)prototypePattern;
 //模板方法模式
 + (void)templateMethodPattern;
+//外观模式
++ (void)facadePattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

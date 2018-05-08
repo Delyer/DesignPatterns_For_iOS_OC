@@ -32,6 +32,8 @@
 #import "TestPaperA.h"
 #import "TestPaperB.h"
 
+#import "Facade.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -123,6 +125,13 @@
     [paperB testQuestion1];
     [paperB testQuestion2];
     [paperB testQuestion3];
+}
+
+//外观模式
++ (void)facadePattern{
+    Facade *facade = [[Facade alloc] init];
+    [facade methodA];
+    [facade methodB];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

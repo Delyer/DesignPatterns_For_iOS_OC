@@ -37,6 +37,10 @@
 		A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD4720A1A3C8004F1A59 /* CalculateDivFactory.m */; };
 		A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD4820A1A3C8004F1A59 /* CalculateSubFactory.m */; };
 		A389CD6620A1A3C8004F1A59 /* ExampleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD4920A1A3C8004F1A59 /* ExampleManager.m */; };
+		A389CD6A20A1B565004F1A59 /* SubSystemOne.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD6920A1B565004F1A59 /* SubSystemOne.m */; };
+		A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD6C20A1B573004F1A59 /* SubSystemTwo.m */; };
+		A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD6F20A1B580004F1A59 /* SubSystemThree.m */; };
+		A389CD7320A1B590004F1A59 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD7220A1B590004F1A59 /* Facade.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -114,6 +118,14 @@
 		A389CD4720A1A3C8004F1A59 /* CalculateDivFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateDivFactory.m; sourceTree = "<group>"; };
 		A389CD4820A1A3C8004F1A59 /* CalculateSubFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateSubFactory.m; sourceTree = "<group>"; };
 		A389CD4920A1A3C8004F1A59 /* ExampleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleManager.m; sourceTree = "<group>"; };
+		A389CD6820A1B565004F1A59 /* SubSystemOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubSystemOne.h; sourceTree = "<group>"; };
+		A389CD6920A1B565004F1A59 /* SubSystemOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubSystemOne.m; sourceTree = "<group>"; };
+		A389CD6B20A1B573004F1A59 /* SubSystemTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubSystemTwo.h; sourceTree = "<group>"; };
+		A389CD6C20A1B573004F1A59 /* SubSystemTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubSystemTwo.m; sourceTree = "<group>"; };
+		A389CD6E20A1B580004F1A59 /* SubSystemThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubSystemThree.h; sourceTree = "<group>"; };
+		A389CD6F20A1B580004F1A59 /* SubSystemThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubSystemThree.m; sourceTree = "<group>"; };
+		A389CD7120A1B590004F1A59 /* Facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
+		A389CD7220A1B590004F1A59 /* Facade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +165,7 @@
 				A389CD3E20A1A3C8004F1A59 /* 5.工厂模式 */,
 				A389CD3320A1A3C7004F1A59 /* 6.原型模式 */,
 				A389CD2420A1A3C7004F1A59 /* 7.模板模式 */,
+				A389CD6720A1B4C6004F1A59 /* 8.外观模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -315,6 +328,21 @@
 			path = "5.工厂模式";
 			sourceTree = "<group>";
 		};
+		A389CD6720A1B4C6004F1A59 /* 8.外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD6820A1B565004F1A59 /* SubSystemOne.h */,
+				A389CD6920A1B565004F1A59 /* SubSystemOne.m */,
+				A389CD6B20A1B573004F1A59 /* SubSystemTwo.h */,
+				A389CD6C20A1B573004F1A59 /* SubSystemTwo.m */,
+				A389CD6E20A1B580004F1A59 /* SubSystemThree.h */,
+				A389CD6F20A1B580004F1A59 /* SubSystemThree.m */,
+				A389CD7120A1B590004F1A59 /* Facade.h */,
+				A389CD7220A1B590004F1A59 /* Facade.m */,
+			);
+			path = "8.外观模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -377,9 +405,12 @@
 				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
 				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
 				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
+				A389CD6A20A1B565004F1A59 /* SubSystemOne.m in Sources */,
 				A389CD4F20A1A3C8004F1A59 /* Skills.m in Sources */,
 				A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */,
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
+				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
+				A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */,
 				A389CD5620A1A3C8004F1A59 /* Person.m in Sources */,
 				A389CD4D20A1A3C8004F1A59 /* CashStrategyReturn.m in Sources */,
 				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
@@ -389,6 +420,7 @@
 				A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */,
 				A389CD6320A1A3C8004F1A59 /* CalculateAddFactory.m in Sources */,
 				A389CD5320A1A3C8004F1A59 /* Finery.m in Sources */,
+				A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */,
 				A389CD5B20A1A3C8004F1A59 /* SchoolGirl.m in Sources */,
 				A389CD5020A1A3C8004F1A59 /* Skill_Q.m in Sources */,
 				A389CD5920A1A3C8004F1A59 /* TestPaper.m in Sources */,
