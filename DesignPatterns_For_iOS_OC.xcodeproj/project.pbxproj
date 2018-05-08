@@ -8,6 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		A389CCFB20A1A32A004F1A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CCFA20A1A32A004F1A59 /* main.m */; };
+		A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */; };
+		A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */; };
+		A389CD4C20A1A3C8004F1A59 /* CashContextFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0820A1A3C7004F1A59 /* CashContextFactory.m */; };
+		A389CD4D20A1A3C8004F1A59 /* CashStrategyReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0A20A1A3C7004F1A59 /* CashStrategyReturn.m */; };
+		A389CD4E20A1A3C8004F1A59 /* Skill_W.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0F20A1A3C7004F1A59 /* Skill_W.m */; };
+		A389CD4F20A1A3C8004F1A59 /* Skills.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD1120A1A3C7004F1A59 /* Skills.m */; };
+		A389CD5020A1A3C8004F1A59 /* Skill_Q.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD1320A1A3C7004F1A59 /* Skill_Q.m */; };
+		A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD1520A1A3C7004F1A59 /* Hero.m */; };
+		A389CD5220A1A3C8004F1A59 /* AnQiLa.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD1820A1A3C7004F1A59 /* AnQiLa.m */; };
+		A389CD5320A1A3C8004F1A59 /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD1C20A1A3C7004F1A59 /* Finery.m */; };
+		A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD1F20A1A3C7004F1A59 /* TShirts.m */; };
+		A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD2020A1A3C7004F1A59 /* BigTrouser.m */; };
+		A389CD5620A1A3C8004F1A59 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD2320A1A3C7004F1A59 /* Person.m */; };
+		A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD2520A1A3C7004F1A59 /* TestPaperB.m */; };
+		A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD2620A1A3C7004F1A59 /* TestPaperA.m */; };
+		A389CD5920A1A3C8004F1A59 /* TestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD2A20A1A3C7004F1A59 /* TestPaper.m */; };
+		A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD2C20A1A3C7004F1A59 /* Proxy.m */; };
+		A389CD5B20A1A3C8004F1A59 /* SchoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD2F20A1A3C7004F1A59 /* SchoolGirl.m */; };
+		A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD3120A1A3C7004F1A59 /* Pursuit.m */; };
+		A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD3520A1A3C7004F1A59 /* PrototypePerson.m */; };
+		A389CD5E20A1A3C8004F1A59 /* CalculatorAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD3A20A1A3C8004F1A59 /* CalculatorAlgorithm.m */; };
+		A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD3B20A1A3C8004F1A59 /* CalculatorOperation.m */; };
+		A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD3C20A1A3C8004F1A59 /* CalculatorFactory.m */; };
+		A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD4020A1A3C8004F1A59 /* CalculateMulFactory.m */; };
+		A389CD6220A1A3C8004F1A59 /* CalculateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD4120A1A3C8004F1A59 /* CalculateFactory.m */; };
+		A389CD6320A1A3C8004F1A59 /* CalculateAddFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD4420A1A3C8004F1A59 /* CalculateAddFactory.m */; };
+		A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD4720A1A3C8004F1A59 /* CalculateDivFactory.m */; };
+		A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD4820A1A3C8004F1A59 /* CalculateSubFactory.m */; };
+		A389CD6620A1A3C8004F1A59 /* ExampleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD4920A1A3C8004F1A59 /* ExampleManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +54,66 @@
 /* Begin PBXFileReference section */
 		A389CCF720A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns_For_iOS_OC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A389CCFA20A1A32A004F1A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyNormal.m; sourceTree = "<group>"; };
+		A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyRebate.m; sourceTree = "<group>"; };
+		A389CD0420A1A3C7004F1A59 /* CashContextFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashContextFactory.h; sourceTree = "<group>"; };
+		A389CD0520A1A3C7004F1A59 /* CashStrategyReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashStrategyReturn.h; sourceTree = "<group>"; };
+		A389CD0620A1A3C7004F1A59 /* CashStrategyRebate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashStrategyRebate.h; sourceTree = "<group>"; };
+		A389CD0720A1A3C7004F1A59 /* CashStrategyNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashStrategyNormal.h; sourceTree = "<group>"; };
+		A389CD0820A1A3C7004F1A59 /* CashContextFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashContextFactory.m; sourceTree = "<group>"; };
+		A389CD0920A1A3C7004F1A59 /* CashStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashStrategy.h; sourceTree = "<group>"; };
+		A389CD0A20A1A3C7004F1A59 /* CashStrategyReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyReturn.m; sourceTree = "<group>"; };
+		A389CD0E20A1A3C7004F1A59 /* Skill_Q.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skill_Q.h; sourceTree = "<group>"; };
+		A389CD0F20A1A3C7004F1A59 /* Skill_W.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skill_W.m; sourceTree = "<group>"; };
+		A389CD1020A1A3C7004F1A59 /* Skills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skills.h; sourceTree = "<group>"; };
+		A389CD1120A1A3C7004F1A59 /* Skills.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skills.m; sourceTree = "<group>"; };
+		A389CD1220A1A3C7004F1A59 /* Skill_W.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skill_W.h; sourceTree = "<group>"; };
+		A389CD1320A1A3C7004F1A59 /* Skill_Q.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skill_Q.m; sourceTree = "<group>"; };
+		A389CD1520A1A3C7004F1A59 /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
+		A389CD1620A1A3C7004F1A59 /* AnQiLa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnQiLa.h; sourceTree = "<group>"; };
+		A389CD1720A1A3C7004F1A59 /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		A389CD1820A1A3C7004F1A59 /* AnQiLa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnQiLa.m; sourceTree = "<group>"; };
+		A389CD1B20A1A3C7004F1A59 /* TShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TShirts.h; sourceTree = "<group>"; };
+		A389CD1C20A1A3C7004F1A59 /* Finery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finery.m; sourceTree = "<group>"; };
+		A389CD1D20A1A3C7004F1A59 /* BigTrouser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigTrouser.h; sourceTree = "<group>"; };
+		A389CD1E20A1A3C7004F1A59 /* Finery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
+		A389CD1F20A1A3C7004F1A59 /* TShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TShirts.m; sourceTree = "<group>"; };
+		A389CD2020A1A3C7004F1A59 /* BigTrouser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigTrouser.m; sourceTree = "<group>"; };
+		A389CD2220A1A3C7004F1A59 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A389CD2320A1A3C7004F1A59 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A389CD2520A1A3C7004F1A59 /* TestPaperB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPaperB.m; sourceTree = "<group>"; };
+		A389CD2620A1A3C7004F1A59 /* TestPaperA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPaperA.m; sourceTree = "<group>"; };
+		A389CD2720A1A3C7004F1A59 /* TestPaper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPaper.h; sourceTree = "<group>"; };
+		A389CD2820A1A3C7004F1A59 /* TestPaperB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPaperB.h; sourceTree = "<group>"; };
+		A389CD2920A1A3C7004F1A59 /* TestPaperA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestPaperA.h; sourceTree = "<group>"; };
+		A389CD2A20A1A3C7004F1A59 /* TestPaper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestPaper.m; sourceTree = "<group>"; };
+		A389CD2C20A1A3C7004F1A59 /* Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
+		A389CD2D20A1A3C7004F1A59 /* GiveGiftDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiveGiftDelegate.h; sourceTree = "<group>"; };
+		A389CD2E20A1A3C7004F1A59 /* Pursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pursuit.h; sourceTree = "<group>"; };
+		A389CD2F20A1A3C7004F1A59 /* SchoolGirl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolGirl.m; sourceTree = "<group>"; };
+		A389CD3020A1A3C7004F1A59 /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		A389CD3120A1A3C7004F1A59 /* Pursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pursuit.m; sourceTree = "<group>"; };
+		A389CD3220A1A3C7004F1A59 /* SchoolGirl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolGirl.h; sourceTree = "<group>"; };
+		A389CD3420A1A3C7004F1A59 /* PrototypePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrototypePerson.h; sourceTree = "<group>"; };
+		A389CD3520A1A3C7004F1A59 /* PrototypePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrototypePerson.m; sourceTree = "<group>"; };
+		A389CD3620A1A3C7004F1A59 /* ExampleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleManager.h; sourceTree = "<group>"; };
+		A389CD3820A1A3C8004F1A59 /* CalculatorOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorOperation.h; sourceTree = "<group>"; };
+		A389CD3920A1A3C8004F1A59 /* CalculatorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorFactory.h; sourceTree = "<group>"; };
+		A389CD3A20A1A3C8004F1A59 /* CalculatorAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorAlgorithm.m; sourceTree = "<group>"; };
+		A389CD3B20A1A3C8004F1A59 /* CalculatorOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorOperation.m; sourceTree = "<group>"; };
+		A389CD3C20A1A3C8004F1A59 /* CalculatorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorFactory.m; sourceTree = "<group>"; };
+		A389CD3D20A1A3C8004F1A59 /* CalculatorAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorAlgorithm.h; sourceTree = "<group>"; };
+		A389CD3F20A1A3C8004F1A59 /* CalculateAddFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateAddFactory.h; sourceTree = "<group>"; };
+		A389CD4020A1A3C8004F1A59 /* CalculateMulFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateMulFactory.m; sourceTree = "<group>"; };
+		A389CD4120A1A3C8004F1A59 /* CalculateFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateFactory.m; sourceTree = "<group>"; };
+		A389CD4220A1A3C8004F1A59 /* CalculateSubFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateSubFactory.h; sourceTree = "<group>"; };
+		A389CD4320A1A3C8004F1A59 /* CalculateDivFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateDivFactory.h; sourceTree = "<group>"; };
+		A389CD4420A1A3C8004F1A59 /* CalculateAddFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateAddFactory.m; sourceTree = "<group>"; };
+		A389CD4520A1A3C8004F1A59 /* CalculateMulFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateMulFactory.h; sourceTree = "<group>"; };
+		A389CD4620A1A3C8004F1A59 /* CalculateFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateFactory.h; sourceTree = "<group>"; };
+		A389CD4720A1A3C8004F1A59 /* CalculateDivFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateDivFactory.m; sourceTree = "<group>"; };
+		A389CD4820A1A3C8004F1A59 /* CalculateSubFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateSubFactory.m; sourceTree = "<group>"; };
+		A389CD4920A1A3C8004F1A59 /* ExampleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +146,173 @@
 		A389CCF920A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {
 			isa = PBXGroup;
 			children = (
+				A389CD3720A1A3C8004F1A59 /* 1.简单工厂模式 */,
+				A389CD0120A1A3C7004F1A59 /* 2.策略模式 */,
+				A389CD0B20A1A3C7004F1A59 /* 3.装饰器模式 */,
+				A389CD2B20A1A3C7004F1A59 /* 4.代理模式 */,
+				A389CD3E20A1A3C8004F1A59 /* 5.工厂模式 */,
+				A389CD3320A1A3C7004F1A59 /* 6.原型模式 */,
+				A389CD2420A1A3C7004F1A59 /* 7.模板模式 */,
+				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
+				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
 			);
 			path = DesignPatterns_For_iOS_OC;
+			sourceTree = "<group>";
+		};
+		A389CD0120A1A3C7004F1A59 /* 2.策略模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */,
+				A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */,
+				A389CD0420A1A3C7004F1A59 /* CashContextFactory.h */,
+				A389CD0520A1A3C7004F1A59 /* CashStrategyReturn.h */,
+				A389CD0620A1A3C7004F1A59 /* CashStrategyRebate.h */,
+				A389CD0720A1A3C7004F1A59 /* CashStrategyNormal.h */,
+				A389CD0820A1A3C7004F1A59 /* CashContextFactory.m */,
+				A389CD0920A1A3C7004F1A59 /* CashStrategy.h */,
+				A389CD0A20A1A3C7004F1A59 /* CashStrategyReturn.m */,
+			);
+			path = "2.策略模式";
+			sourceTree = "<group>";
+		};
+		A389CD0B20A1A3C7004F1A59 /* 3.装饰器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD0C20A1A3C7004F1A59 /* 装饰器模式2(王者荣耀) */,
+				A389CD1920A1A3C7004F1A59 /* 装饰器模式1(穿衣) */,
+			);
+			path = "3.装饰器模式";
+			sourceTree = "<group>";
+		};
+		A389CD0C20A1A3C7004F1A59 /* 装饰器模式2(王者荣耀) */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD0D20A1A3C7004F1A59 /* decorator */,
+				A389CD1420A1A3C7004F1A59 /* component */,
+			);
+			path = "装饰器模式2(王者荣耀)";
+			sourceTree = "<group>";
+		};
+		A389CD0D20A1A3C7004F1A59 /* decorator */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD0E20A1A3C7004F1A59 /* Skill_Q.h */,
+				A389CD0F20A1A3C7004F1A59 /* Skill_W.m */,
+				A389CD1020A1A3C7004F1A59 /* Skills.h */,
+				A389CD1120A1A3C7004F1A59 /* Skills.m */,
+				A389CD1220A1A3C7004F1A59 /* Skill_W.h */,
+				A389CD1320A1A3C7004F1A59 /* Skill_Q.m */,
+			);
+			path = decorator;
+			sourceTree = "<group>";
+		};
+		A389CD1420A1A3C7004F1A59 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD1520A1A3C7004F1A59 /* Hero.m */,
+				A389CD1620A1A3C7004F1A59 /* AnQiLa.h */,
+				A389CD1720A1A3C7004F1A59 /* Hero.h */,
+				A389CD1820A1A3C7004F1A59 /* AnQiLa.m */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		A389CD1920A1A3C7004F1A59 /* 装饰器模式1(穿衣) */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD1A20A1A3C7004F1A59 /* decorator */,
+				A389CD2120A1A3C7004F1A59 /* component */,
+			);
+			path = "装饰器模式1(穿衣)";
+			sourceTree = "<group>";
+		};
+		A389CD1A20A1A3C7004F1A59 /* decorator */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD1B20A1A3C7004F1A59 /* TShirts.h */,
+				A389CD1C20A1A3C7004F1A59 /* Finery.m */,
+				A389CD1D20A1A3C7004F1A59 /* BigTrouser.h */,
+				A389CD1E20A1A3C7004F1A59 /* Finery.h */,
+				A389CD1F20A1A3C7004F1A59 /* TShirts.m */,
+				A389CD2020A1A3C7004F1A59 /* BigTrouser.m */,
+			);
+			path = decorator;
+			sourceTree = "<group>";
+		};
+		A389CD2120A1A3C7004F1A59 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD2220A1A3C7004F1A59 /* Person.h */,
+				A389CD2320A1A3C7004F1A59 /* Person.m */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		A389CD2420A1A3C7004F1A59 /* 7.模板模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD2520A1A3C7004F1A59 /* TestPaperB.m */,
+				A389CD2620A1A3C7004F1A59 /* TestPaperA.m */,
+				A389CD2720A1A3C7004F1A59 /* TestPaper.h */,
+				A389CD2820A1A3C7004F1A59 /* TestPaperB.h */,
+				A389CD2920A1A3C7004F1A59 /* TestPaperA.h */,
+				A389CD2A20A1A3C7004F1A59 /* TestPaper.m */,
+			);
+			path = "7.模板模式";
+			sourceTree = "<group>";
+		};
+		A389CD2B20A1A3C7004F1A59 /* 4.代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD2C20A1A3C7004F1A59 /* Proxy.m */,
+				A389CD2D20A1A3C7004F1A59 /* GiveGiftDelegate.h */,
+				A389CD2E20A1A3C7004F1A59 /* Pursuit.h */,
+				A389CD2F20A1A3C7004F1A59 /* SchoolGirl.m */,
+				A389CD3020A1A3C7004F1A59 /* Proxy.h */,
+				A389CD3120A1A3C7004F1A59 /* Pursuit.m */,
+				A389CD3220A1A3C7004F1A59 /* SchoolGirl.h */,
+			);
+			path = "4.代理模式";
+			sourceTree = "<group>";
+		};
+		A389CD3320A1A3C7004F1A59 /* 6.原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD3420A1A3C7004F1A59 /* PrototypePerson.h */,
+				A389CD3520A1A3C7004F1A59 /* PrototypePerson.m */,
+			);
+			path = "6.原型模式";
+			sourceTree = "<group>";
+		};
+		A389CD3720A1A3C8004F1A59 /* 1.简单工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD3820A1A3C8004F1A59 /* CalculatorOperation.h */,
+				A389CD3920A1A3C8004F1A59 /* CalculatorFactory.h */,
+				A389CD3A20A1A3C8004F1A59 /* CalculatorAlgorithm.m */,
+				A389CD3B20A1A3C8004F1A59 /* CalculatorOperation.m */,
+				A389CD3C20A1A3C8004F1A59 /* CalculatorFactory.m */,
+				A389CD3D20A1A3C8004F1A59 /* CalculatorAlgorithm.h */,
+			);
+			path = "1.简单工厂模式";
+			sourceTree = "<group>";
+		};
+		A389CD3E20A1A3C8004F1A59 /* 5.工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A389CD3F20A1A3C8004F1A59 /* CalculateAddFactory.h */,
+				A389CD4020A1A3C8004F1A59 /* CalculateMulFactory.m */,
+				A389CD4120A1A3C8004F1A59 /* CalculateFactory.m */,
+				A389CD4220A1A3C8004F1A59 /* CalculateSubFactory.h */,
+				A389CD4320A1A3C8004F1A59 /* CalculateDivFactory.h */,
+				A389CD4420A1A3C8004F1A59 /* CalculateAddFactory.m */,
+				A389CD4520A1A3C8004F1A59 /* CalculateMulFactory.h */,
+				A389CD4620A1A3C8004F1A59 /* CalculateFactory.h */,
+				A389CD4720A1A3C8004F1A59 /* CalculateDivFactory.m */,
+				A389CD4820A1A3C8004F1A59 /* CalculateSubFactory.m */,
+			);
+			path = "5.工厂模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +372,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */,
+				A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */,
+				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
+				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
+				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
+				A389CD4F20A1A3C8004F1A59 /* Skills.m in Sources */,
+				A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */,
+				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
+				A389CD5620A1A3C8004F1A59 /* Person.m in Sources */,
+				A389CD4D20A1A3C8004F1A59 /* CashStrategyReturn.m in Sources */,
+				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
+				A389CD5E20A1A3C8004F1A59 /* CalculatorAlgorithm.m in Sources */,
+				A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */,
+				A389CD5220A1A3C8004F1A59 /* AnQiLa.m in Sources */,
+				A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */,
+				A389CD6320A1A3C8004F1A59 /* CalculateAddFactory.m in Sources */,
+				A389CD5320A1A3C8004F1A59 /* Finery.m in Sources */,
+				A389CD5B20A1A3C8004F1A59 /* SchoolGirl.m in Sources */,
+				A389CD5020A1A3C8004F1A59 /* Skill_Q.m in Sources */,
+				A389CD5920A1A3C8004F1A59 /* TestPaper.m in Sources */,
+				A389CD6220A1A3C8004F1A59 /* CalculateFactory.m in Sources */,
+				A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */,
+				A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */,
+				A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */,
+				A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */,
+				A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */,
 				A389CCFB20A1A32A004F1A59 /* main.m in Sources */,
+				A389CD4C20A1A3C8004F1A59 /* CashContextFactory.m in Sources */,
+				A389CD6620A1A3C8004F1A59 /* ExampleManager.m in Sources */,
+				A389CD4E20A1A3C8004F1A59 /* Skill_W.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
