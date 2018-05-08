@@ -164,7 +164,7 @@
 				A389CD2B20A1A3C7004F1A59 /* 4.代理模式 */,
 				A389CD3E20A1A3C8004F1A59 /* 5.工厂模式 */,
 				A389CD3320A1A3C7004F1A59 /* 6.原型模式 */,
-				A389CD2420A1A3C7004F1A59 /* 7.模板模式 */,
+				A389CD2420A1A3C7004F1A59 /* 7.模板方法模式 */,
 				A389CD6720A1B4C6004F1A59 /* 8.外观模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
@@ -262,7 +262,7 @@
 			path = component;
 			sourceTree = "<group>";
 		};
-		A389CD2420A1A3C7004F1A59 /* 7.模板模式 */ = {
+		A389CD2420A1A3C7004F1A59 /* 7.模板方法模式 */ = {
 			isa = PBXGroup;
 			children = (
 				A389CD2520A1A3C7004F1A59 /* TestPaperB.m */,
@@ -272,7 +272,7 @@
 				A389CD2920A1A3C7004F1A59 /* TestPaperA.h */,
 				A389CD2A20A1A3C7004F1A59 /* TestPaper.m */,
 			);
-			path = "7.模板模式";
+			path = "7.模板方法模式";
 			sourceTree = "<group>";
 		};
 		A389CD2B20A1A3C7004F1A59 /* 4.代理模式 */ = {
