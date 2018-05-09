@@ -26,6 +26,8 @@
 + (void)templateMethodPattern;
 //外观模式
 + (void)facadePattern;
+//建造者模式
++ (void)builderPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

@@ -41,6 +41,14 @@
 		A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD6C20A1B573004F1A59 /* SubSystemTwo.m */; };
 		A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD6F20A1B580004F1A59 /* SubSystemThree.m */; };
 		A389CD7320A1B590004F1A59 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD7220A1B590004F1A59 /* Facade.m */; };
+		A3EAAA5C20A2A46600B5D164 /* GamePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA5B20A2A46600B5D164 /* GamePerson.m */; };
+		A3EAAA5F20A2A4A400B5D164 /* GamePersonHead.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA5E20A2A4A400B5D164 /* GamePersonHead.m */; };
+		A3EAAA6220A2A4D600B5D164 /* GamePersonBody.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6120A2A4D600B5D164 /* GamePersonBody.m */; };
+		A3EAAA6520A2A52300B5D164 /* GamePersonLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6420A2A52300B5D164 /* GamePersonLeg.m */; };
+		A3EAAA6820A2A53300B5D164 /* GamePersonArm.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6720A2A53300B5D164 /* GamePersonArm.m */; };
+		A3EAAA6D20A2B6CE00B5D164 /* ThinPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6C20A2B6CE00B5D164 /* ThinPersonBuilder.m */; };
+		A3EAAA7020A2B6DD00B5D164 /* FatPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6F20A2B6DD00B5D164 /* FatPersonBuilder.m */; };
+		A3EAAA7320A2C93500B5D164 /* PersonBuilderDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA7220A2C93500B5D164 /* PersonBuilderDirector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,6 +134,23 @@
 		A389CD6F20A1B580004F1A59 /* SubSystemThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubSystemThree.m; sourceTree = "<group>"; };
 		A389CD7120A1B590004F1A59 /* Facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
 		A389CD7220A1B590004F1A59 /* Facade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		A3EAAA5A20A2A46600B5D164 /* GamePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePerson.h; sourceTree = "<group>"; };
+		A3EAAA5B20A2A46600B5D164 /* GamePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePerson.m; sourceTree = "<group>"; };
+		A3EAAA5D20A2A4A400B5D164 /* GamePersonHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePersonHead.h; sourceTree = "<group>"; };
+		A3EAAA5E20A2A4A400B5D164 /* GamePersonHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePersonHead.m; sourceTree = "<group>"; };
+		A3EAAA6020A2A4D600B5D164 /* GamePersonBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePersonBody.h; sourceTree = "<group>"; };
+		A3EAAA6120A2A4D600B5D164 /* GamePersonBody.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePersonBody.m; sourceTree = "<group>"; };
+		A3EAAA6320A2A52300B5D164 /* GamePersonLeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePersonLeg.h; sourceTree = "<group>"; };
+		A3EAAA6420A2A52300B5D164 /* GamePersonLeg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePersonLeg.m; sourceTree = "<group>"; };
+		A3EAAA6620A2A53300B5D164 /* GamePersonArm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePersonArm.h; sourceTree = "<group>"; };
+		A3EAAA6720A2A53300B5D164 /* GamePersonArm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePersonArm.m; sourceTree = "<group>"; };
+		A3EAAA6A20A2B59500B5D164 /* PersonBuilderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonBuilderProtocol.h; sourceTree = "<group>"; };
+		A3EAAA6B20A2B6CE00B5D164 /* ThinPersonBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThinPersonBuilder.h; sourceTree = "<group>"; };
+		A3EAAA6C20A2B6CE00B5D164 /* ThinPersonBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinPersonBuilder.m; sourceTree = "<group>"; };
+		A3EAAA6E20A2B6DD00B5D164 /* FatPersonBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatPersonBuilder.h; sourceTree = "<group>"; };
+		A3EAAA6F20A2B6DD00B5D164 /* FatPersonBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FatPersonBuilder.m; sourceTree = "<group>"; };
+		A3EAAA7120A2C93500B5D164 /* PersonBuilderDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonBuilderDirector.h; sourceTree = "<group>"; };
+		A3EAAA7220A2C93500B5D164 /* PersonBuilderDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonBuilderDirector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +191,7 @@
 				A389CD3320A1A3C7004F1A59 /* 6.原型模式 */,
 				A389CD2420A1A3C7004F1A59 /* 7.模板方法模式 */,
 				A389CD6720A1B4C6004F1A59 /* 8.外观模式 */,
+				A3EAAA5620A2A3EB00B5D164 /* 9.建造者模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -343,6 +369,54 @@
 			path = "8.外观模式";
 			sourceTree = "<group>";
 		};
+		A3EAAA5620A2A3EB00B5D164 /* 9.建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAAA5920A2A42200B5D164 /* Product */,
+				A3EAAA5720A2A40C00B5D164 /* Builder */,
+				A3EAAA5820A2A41600B5D164 /* Director */,
+			);
+			path = "9.建造者模式";
+			sourceTree = "<group>";
+		};
+		A3EAAA5720A2A40C00B5D164 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAAA6A20A2B59500B5D164 /* PersonBuilderProtocol.h */,
+				A3EAAA6B20A2B6CE00B5D164 /* ThinPersonBuilder.h */,
+				A3EAAA6C20A2B6CE00B5D164 /* ThinPersonBuilder.m */,
+				A3EAAA6E20A2B6DD00B5D164 /* FatPersonBuilder.h */,
+				A3EAAA6F20A2B6DD00B5D164 /* FatPersonBuilder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		A3EAAA5820A2A41600B5D164 /* Director */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAAA7120A2C93500B5D164 /* PersonBuilderDirector.h */,
+				A3EAAA7220A2C93500B5D164 /* PersonBuilderDirector.m */,
+			);
+			path = Director;
+			sourceTree = "<group>";
+		};
+		A3EAAA5920A2A42200B5D164 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				A3EAAA5A20A2A46600B5D164 /* GamePerson.h */,
+				A3EAAA5B20A2A46600B5D164 /* GamePerson.m */,
+				A3EAAA5D20A2A4A400B5D164 /* GamePersonHead.h */,
+				A3EAAA5E20A2A4A400B5D164 /* GamePersonHead.m */,
+				A3EAAA6020A2A4D600B5D164 /* GamePersonBody.h */,
+				A3EAAA6120A2A4D600B5D164 /* GamePersonBody.m */,
+				A3EAAA6320A2A52300B5D164 /* GamePersonLeg.h */,
+				A3EAAA6420A2A52300B5D164 /* GamePersonLeg.m */,
+				A3EAAA6620A2A53300B5D164 /* GamePersonArm.h */,
+				A3EAAA6720A2A53300B5D164 /* GamePersonArm.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -402,6 +476,7 @@
 			files = (
 				A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */,
 				A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */,
+				A3EAAA5F20A2A4A400B5D164 /* GamePersonHead.m in Sources */,
 				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
 				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
 				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
@@ -411,6 +486,7 @@
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
 				A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */,
+				A3EAAA7320A2C93500B5D164 /* PersonBuilderDirector.m in Sources */,
 				A389CD5620A1A3C8004F1A59 /* Person.m in Sources */,
 				A389CD4D20A1A3C8004F1A59 /* CashStrategyReturn.m in Sources */,
 				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
@@ -419,8 +495,11 @@
 				A389CD5220A1A3C8004F1A59 /* AnQiLa.m in Sources */,
 				A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */,
 				A389CD6320A1A3C8004F1A59 /* CalculateAddFactory.m in Sources */,
+				A3EAAA5C20A2A46600B5D164 /* GamePerson.m in Sources */,
 				A389CD5320A1A3C8004F1A59 /* Finery.m in Sources */,
+				A3EAAA7020A2B6DD00B5D164 /* FatPersonBuilder.m in Sources */,
 				A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */,
+				A3EAAA6820A2A53300B5D164 /* GamePersonArm.m in Sources */,
 				A389CD5B20A1A3C8004F1A59 /* SchoolGirl.m in Sources */,
 				A389CD5020A1A3C8004F1A59 /* Skill_Q.m in Sources */,
 				A389CD5920A1A3C8004F1A59 /* TestPaper.m in Sources */,
@@ -428,11 +507,14 @@
 				A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */,
 				A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */,
 				A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */,
+				A3EAAA6D20A2B6CE00B5D164 /* ThinPersonBuilder.m in Sources */,
 				A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */,
 				A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */,
 				A389CCFB20A1A32A004F1A59 /* main.m in Sources */,
 				A389CD4C20A1A3C8004F1A59 /* CashContextFactory.m in Sources */,
 				A389CD6620A1A3C8004F1A59 /* ExampleManager.m in Sources */,
+				A3EAAA6520A2A52300B5D164 /* GamePersonLeg.m in Sources */,
+				A3EAAA6220A2A4D600B5D164 /* GamePersonBody.m in Sources */,
 				A389CD4E20A1A3C8004F1A59 /* Skill_W.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

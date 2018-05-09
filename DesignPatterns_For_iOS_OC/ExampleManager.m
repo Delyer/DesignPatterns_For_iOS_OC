@@ -34,6 +34,10 @@
 
 #import "Facade.h"
 
+#import "PersonBuilderDirector.h"
+#import "ThinPersonBuilder.h"
+#import "FatPersonBuilder.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -132,6 +136,22 @@
     Facade *facade = [[Facade alloc] init];
     [facade methodA];
     [facade methodB];
+}
+
+//建造者模式
++ (void)builderPattern{
+    //builder
+    ThinPersonBuilder *thinBuilder = [[ThinPersonBuilder alloc] init];
+    //为builder创建director
+    PersonBuilderDirector *thinDirector = [[PersonBuilderDirector alloc] initWithBuilder:thinBuilder];
+    //director发出创建指令 builder负责具体创建组件 返回product
+    GamePerson *thinPerson = [thinDirector builderPerson];
+    
+    FatPersonBuilder *fatBuilder = [[FatPersonBuilder alloc] init];
+    PersonBuilderDirector *fatDirector = [[PersonBuilderDirector alloc] initWithBuilder:fatBuilder];
+    GamePerson *fatPerson = [fatDirector builderPerson];
+    
+    NSLog(@"thinPerson = %@  fatPerson = %@",thinPerson,fatPerson);
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{
