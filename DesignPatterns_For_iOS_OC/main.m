@@ -20,6 +20,7 @@ int main(int argc, const char * argv[]) {
         [ExampleManager executeMethod:@selector(templateMethodPattern) desc:@"模板方法模式"];
         [ExampleManager executeMethod:@selector(facadePattern) desc:@"外观模式"];
         [ExampleManager executeMethod:@selector(builderPattern) desc:@"建造者模式"];
+        [ExampleManager executeMethod:@selector(observerPattern) desc:@"观察者模式"];
     }
     return 0;
 }

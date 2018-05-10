@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3112C2820A42BE900ED42A6 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C2720A42BE900ED42A6 /* Subject.m */; };
+		A3112C2C20A431DD00ED42A6 /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C2B20A431DD00ED42A6 /* ConcreteSubject.m */; };
+		A3112C2F20A433CF00ED42A6 /* StockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C2E20A433CF00ED42A6 /* StockObserver.m */; };
+		A3112C3220A4341800ED42A6 /* NBAObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C3120A4341800ED42A6 /* NBAObserver.m */; };
 		A389CCFB20A1A32A004F1A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CCFA20A1A32A004F1A59 /* main.m */; };
 		A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */; };
 		A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */; };
@@ -64,6 +68,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A3112C2620A42BE900ED42A6 /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		A3112C2720A42BE900ED42A6 /* Subject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		A3112C2920A42C3600ED42A6 /* ObserveProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserveProtocol.h; sourceTree = "<group>"; };
+		A3112C2A20A431DD00ED42A6 /* ConcreteSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteSubject.h; sourceTree = "<group>"; };
+		A3112C2B20A431DD00ED42A6 /* ConcreteSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteSubject.m; sourceTree = "<group>"; };
+		A3112C2D20A433CF00ED42A6 /* StockObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockObserver.h; sourceTree = "<group>"; };
+		A3112C2E20A433CF00ED42A6 /* StockObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockObserver.m; sourceTree = "<group>"; };
+		A3112C3020A4341800ED42A6 /* NBAObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBAObserver.h; sourceTree = "<group>"; };
+		A3112C3120A4341800ED42A6 /* NBAObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBAObserver.m; sourceTree = "<group>"; };
 		A389CCF720A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns_For_iOS_OC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A389CCFA20A1A32A004F1A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyNormal.m; sourceTree = "<group>"; };
@@ -164,6 +177,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3112C2520A4296B00ED42A6 /* 10.观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A3112C2620A42BE900ED42A6 /* Subject.h */,
+				A3112C2720A42BE900ED42A6 /* Subject.m */,
+				A3112C2A20A431DD00ED42A6 /* ConcreteSubject.h */,
+				A3112C2B20A431DD00ED42A6 /* ConcreteSubject.m */,
+				A3112C2920A42C3600ED42A6 /* ObserveProtocol.h */,
+				A3112C2D20A433CF00ED42A6 /* StockObserver.h */,
+				A3112C2E20A433CF00ED42A6 /* StockObserver.m */,
+				A3112C3020A4341800ED42A6 /* NBAObserver.h */,
+				A3112C3120A4341800ED42A6 /* NBAObserver.m */,
+			);
+			path = "10.观察者模式";
+			sourceTree = "<group>";
+		};
 		A389CCEE20A1A32A004F1A59 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +221,7 @@
 				A389CD2420A1A3C7004F1A59 /* 7.模板方法模式 */,
 				A389CD6720A1B4C6004F1A59 /* 8.外观模式 */,
 				A3EAAA5620A2A3EB00B5D164 /* 9.建造者模式 */,
+				A3112C2520A4296B00ED42A6 /* 10.观察者模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -477,7 +507,10 @@
 				A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */,
 				A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */,
 				A3EAAA5F20A2A4A400B5D164 /* GamePersonHead.m in Sources */,
+				A3112C3220A4341800ED42A6 /* NBAObserver.m in Sources */,
+				A3112C2C20A431DD00ED42A6 /* ConcreteSubject.m in Sources */,
 				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
+				A3112C2820A42BE900ED42A6 /* Subject.m in Sources */,
 				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
 				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
 				A389CD6A20A1B565004F1A59 /* SubSystemOne.m in Sources */,
@@ -504,6 +537,7 @@
 				A389CD5020A1A3C8004F1A59 /* Skill_Q.m in Sources */,
 				A389CD5920A1A3C8004F1A59 /* TestPaper.m in Sources */,
 				A389CD6220A1A3C8004F1A59 /* CalculateFactory.m in Sources */,
+				A3112C2F20A433CF00ED42A6 /* StockObserver.m in Sources */,
 				A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */,
 				A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */,
 				A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */,

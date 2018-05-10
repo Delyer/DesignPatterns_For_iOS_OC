@@ -38,6 +38,10 @@
 #import "ThinPersonBuilder.h"
 #import "FatPersonBuilder.h"
 
+#import "ConcreteSubject.h"
+#import "StockObserver.h"
+#import "NBAObserver.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -152,6 +156,19 @@
     GamePerson *fatPerson = [fatDirector builderPerson];
     
     NSLog(@"thinPerson = %@  fatPerson = %@",thinPerson,fatPerson);
+}
+
+//观察者模式
++ (void)observerPattern{
+    //1.通知者
+    Subject *subject = [[ConcreteSubject alloc] init];
+    //观察者
+    NBAObserver *nbaObserver = [[NBAObserver alloc] init];
+    StockObserver *stockObserver = [[StockObserver alloc] init];
+    [subject attach:nbaObserver];
+    [subject attach:stockObserver];
+    //通知
+    [subject notify];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

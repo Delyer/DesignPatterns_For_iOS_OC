@@ -28,6 +28,8 @@
 + (void)facadePattern;
 //建造者模式
 + (void)builderPattern;
+//观察者模式
++ (void)observerPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 
