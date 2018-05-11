@@ -42,6 +42,11 @@
 #import "StockObserver.h"
 #import "NBAObserver.h"
 
+#import "SqlserverFactory.h"
+#import "AccessFactory.h"
+#import "SQLUser.h"
+#import "SQLDepartment.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -169,6 +174,20 @@
     [subject attach:stockObserver];
     //通知
     [subject notify];
+}
+
+//抽象工厂模式
++ (void)abstractFactoryPattern{
+    
+    id<AbstractFactoryProtocol> factory = [[SqlserverFactory alloc]init];
+    id<DepartmentOperationProtocol> department = [factory createDepartment];
+    [department insertDepartment:[[SQLDepartment alloc]init]];
+    [department getDepartment];
+    
+    id<AbstractFactoryProtocol> factory1 = [[AccessFactory alloc]init];
+    id<UserOperationProtocol> user = [factory1 createUser];
+    [user insertUser:[[SQLUser alloc]init]];
+    [user getUser];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

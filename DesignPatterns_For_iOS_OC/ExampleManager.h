@@ -30,6 +30,8 @@
 + (void)builderPattern;
 //观察者模式
 + (void)observerPattern;
+//抽象工厂模式
++ (void)abstractFactoryPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 
