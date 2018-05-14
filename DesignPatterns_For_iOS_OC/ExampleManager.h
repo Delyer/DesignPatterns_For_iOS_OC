@@ -32,6 +32,8 @@
 + (void)observerPattern;
 //抽象工厂模式
 + (void)abstractFactoryPattern;
+//状态模式
++ (void)statePattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

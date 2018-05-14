@@ -47,6 +47,9 @@
 #import "SQLUser.h"
 #import "SQLDepartment.h"
 
+#import "WorkState.h"
+#import "Work.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -188,6 +191,23 @@
     id<UserOperationProtocol> user = [factory1 createUser];
     [user insertUser:[[SQLUser alloc]init]];
     [user getUser];
+}
+
+//状态模式
++ (void)statePattern{
+    Work *work = [[Work alloc] init];
+    work.hour = 9;
+    [work wtiteProgram];
+    work.hour = 12;
+    [work wtiteProgram];
+    work.hour = 15;
+    [work wtiteProgram];
+    work.hour = 17;
+    [work wtiteProgram];
+    work.hour = 18;
+    [work wtiteProgram];
+    work.hour = 22;
+    [work wtiteProgram];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{
