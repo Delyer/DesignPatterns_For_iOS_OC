@@ -34,6 +34,8 @@
 + (void)abstractFactoryPattern;
 //状态模式
 + (void)statePattern;
+//适配器模式
++ (void)adapterPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

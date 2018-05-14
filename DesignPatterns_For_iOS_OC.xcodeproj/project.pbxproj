@@ -18,6 +18,11 @@
 		A346FC4920A9776F0009A462 /* EveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4820A9776F0009A462 /* EveningState.m */; };
 		A346FC4C20A9778F0009A462 /* SleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4B20A9778F0009A462 /* SleepingState.m */; };
 		A346FC4F20A9779F0009A462 /* RestState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4E20A9779F0009A462 /* RestState.m */; };
+		A346FC5320A9A6080009A462 /* MediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC5220A9A6080009A462 /* MediaPlayer.m */; };
+		A346FC5720A9A7980009A462 /* VlcPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC5620A9A7980009A462 /* VlcPlayer.m */; };
+		A346FC5A20A9A7A30009A462 /* Mp4Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC5920A9A7A30009A462 /* Mp4Player.m */; };
+		A346FC6020A9AA020009A462 /* MediaAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC5F20A9AA020009A462 /* MediaAdapter.m */; };
+		A346FC6320A9AC140009A462 /* AduioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC6220A9AC140009A462 /* AduioPlayer.m */; };
 		A360763120A57DF400B36E69 /* SqlserverFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A360763020A57DF400B36E69 /* SqlserverFactory.m */; };
 		A360763420A57E7000B36E69 /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A360763320A57E7000B36E69 /* AccessFactory.m */; };
 		A360763720A57F1E00B36E69 /* SQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A360763620A57F1E00B36E69 /* SQLUser.m */; };
@@ -107,6 +112,17 @@
 		A346FC4B20A9778F0009A462 /* SleepingState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepingState.m; sourceTree = "<group>"; };
 		A346FC4D20A9779F0009A462 /* RestState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestState.h; sourceTree = "<group>"; };
 		A346FC4E20A9779F0009A462 /* RestState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestState.m; sourceTree = "<group>"; };
+		A346FC5120A9A6080009A462 /* MediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		A346FC5220A9A6080009A462 /* MediaPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaPlayer.m; sourceTree = "<group>"; };
+		A346FC5420A9A71E0009A462 /* AdvanceMediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvanceMediaPlayer.h; sourceTree = "<group>"; };
+		A346FC5520A9A7980009A462 /* VlcPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VlcPlayer.h; sourceTree = "<group>"; };
+		A346FC5620A9A7980009A462 /* VlcPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VlcPlayer.m; sourceTree = "<group>"; };
+		A346FC5820A9A7A30009A462 /* Mp4Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp4Player.h; sourceTree = "<group>"; };
+		A346FC5920A9A7A30009A462 /* Mp4Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mp4Player.m; sourceTree = "<group>"; };
+		A346FC5E20A9AA020009A462 /* MediaAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaAdapter.h; sourceTree = "<group>"; };
+		A346FC5F20A9AA020009A462 /* MediaAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaAdapter.m; sourceTree = "<group>"; };
+		A346FC6120A9AC130009A462 /* AduioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AduioPlayer.h; sourceTree = "<group>"; };
+		A346FC6220A9AC140009A462 /* AduioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AduioPlayer.m; sourceTree = "<group>"; };
 		A360762E20A57D5E00B36E69 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
 		A360762F20A57DF300B36E69 /* SqlserverFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqlserverFactory.h; sourceTree = "<group>"; };
 		A360763020A57DF400B36E69 /* SqlserverFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlserverFactory.m; sourceTree = "<group>"; };
@@ -264,6 +280,24 @@
 			path = "12.状态模式";
 			sourceTree = "<group>";
 		};
+		A346FC5020A9A51D0009A462 /* 13.适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A346FC5120A9A6080009A462 /* MediaPlayer.h */,
+				A346FC5220A9A6080009A462 /* MediaPlayer.m */,
+				A346FC5420A9A71E0009A462 /* AdvanceMediaPlayer.h */,
+				A346FC5520A9A7980009A462 /* VlcPlayer.h */,
+				A346FC5620A9A7980009A462 /* VlcPlayer.m */,
+				A346FC5820A9A7A30009A462 /* Mp4Player.h */,
+				A346FC5920A9A7A30009A462 /* Mp4Player.m */,
+				A346FC5E20A9AA020009A462 /* MediaAdapter.h */,
+				A346FC5F20A9AA020009A462 /* MediaAdapter.m */,
+				A346FC6120A9AC130009A462 /* AduioPlayer.h */,
+				A346FC6220A9AC140009A462 /* AduioPlayer.m */,
+			);
+			path = "13.适配器模式";
+			sourceTree = "<group>";
+		};
 		A360762320A57AF600B36E69 /* 11.抽象工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +387,7 @@
 				A3112C2520A4296B00ED42A6 /* 10.观察者模式 */,
 				A360762320A57AF600B36E69 /* 11.抽象工厂模式 */,
 				A346FC3620A96BB40009A462 /* 12.状态模式 */,
+				A346FC5020A9A51D0009A462 /* 13.适配器模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -636,13 +671,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A346FC3D20A96E820009A462 /* Work.m in Sources */,
+				A346FC5320A9A6080009A462 /* MediaPlayer.m in Sources */,
 				A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */,
 				A346FC4C20A9778F0009A462 /* SleepingState.m in Sources */,
+				A346FC5A20A9A7A30009A462 /* Mp4Player.m in Sources */,
 				A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */,
 				A3EAAA5F20A2A4A400B5D164 /* GamePersonHead.m in Sources */,
 				A3112C3220A4341800ED42A6 /* NBAObserver.m in Sources */,
 				A3112C2C20A431DD00ED42A6 /* ConcreteSubject.m in Sources */,
 				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
+				A346FC6020A9AA020009A462 /* MediaAdapter.m in Sources */,
 				A3112C2820A42BE900ED42A6 /* Subject.m in Sources */,
 				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
 				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
@@ -666,6 +704,7 @@
 				A389CD6320A1A3C8004F1A59 /* CalculateAddFactory.m in Sources */,
 				A3EAAA5C20A2A46600B5D164 /* GamePerson.m in Sources */,
 				A389CD5320A1A3C8004F1A59 /* Finery.m in Sources */,
+				A346FC5720A9A7980009A462 /* VlcPlayer.m in Sources */,
 				A3EAAA7020A2B6DD00B5D164 /* FatPersonBuilder.m in Sources */,
 				A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */,
 				A360764820A5821D00B36E69 /* AccessDepartment.m in Sources */,
@@ -690,6 +729,7 @@
 				A389CD4C20A1A3C8004F1A59 /* CashContextFactory.m in Sources */,
 				A389CD6620A1A3C8004F1A59 /* ExampleManager.m in Sources */,
 				A3EAAA6520A2A52300B5D164 /* GamePersonLeg.m in Sources */,
+				A346FC6320A9AC140009A462 /* AduioPlayer.m in Sources */,
 				A3EAAA6220A2A4D600B5D164 /* GamePersonBody.m in Sources */,
 				A360764220A5815600B36E69 /* AccessUser.m in Sources */,
 				A360764520A5821200B36E69 /* SqlserverDepartment.m in Sources */,

@@ -50,6 +50,8 @@
 #import "WorkState.h"
 #import "Work.h"
 
+#import "AduioPlayer.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -208,6 +210,15 @@
     [work wtiteProgram];
     work.hour = 22;
     [work wtiteProgram];
+}
+
+//适配器模式
++ (void)adapterPattern{
+    AduioPlayer *player = [[AduioPlayer alloc] init];
+    [player playWithAudioType:AudioTypeVlc fileName:@"far way.vlc"];
+    [player playWithAudioType:AudioTypeMp3 fileName:@"ten year.mp3"];
+    [player playWithAudioType:AudioTypeMp4 fileName:@"hero.mp4"];
+    [player playWithAudioType:AudioTypeInvaild fileName:@"never.aa"];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{
