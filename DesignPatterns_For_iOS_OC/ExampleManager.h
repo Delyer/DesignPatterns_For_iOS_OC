@@ -36,6 +36,8 @@
 + (void)statePattern;
 //适配器模式
 + (void)adapterPattern;
+//备忘录模式
++ (void)mementoPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

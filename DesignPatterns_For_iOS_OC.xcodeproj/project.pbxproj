@@ -11,6 +11,9 @@
 		A3112C2C20A431DD00ED42A6 /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C2B20A431DD00ED42A6 /* ConcreteSubject.m */; };
 		A3112C2F20A433CF00ED42A6 /* StockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C2E20A433CF00ED42A6 /* StockObserver.m */; };
 		A3112C3220A4341800ED42A6 /* NBAObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C3120A4341800ED42A6 /* NBAObserver.m */; };
+		A313A77120AA89CC00B3B769 /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77020AA89CC00B3B769 /* Originator.m */; };
+		A313A77420AA8A3B00B3B769 /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77320AA8A3B00B3B769 /* Memento.m */; };
+		A313A77720AA90BD00B3B769 /* MementoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77620AA90BD00B3B769 /* MementoManager.m */; };
 		A346FC3D20A96E820009A462 /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC3C20A96E820009A462 /* Work.m */; };
 		A346FC4020A977220009A462 /* ForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC3F20A977220009A462 /* ForenoonState.m */; };
 		A346FC4320A977310009A462 /* NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4220A977310009A462 /* NoonState.m */; };
@@ -97,6 +100,12 @@
 		A3112C2E20A433CF00ED42A6 /* StockObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockObserver.m; sourceTree = "<group>"; };
 		A3112C3020A4341800ED42A6 /* NBAObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBAObserver.h; sourceTree = "<group>"; };
 		A3112C3120A4341800ED42A6 /* NBAObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBAObserver.m; sourceTree = "<group>"; };
+		A313A76F20AA89CC00B3B769 /* Originator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Originator.h; sourceTree = "<group>"; };
+		A313A77020AA89CC00B3B769 /* Originator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Originator.m; sourceTree = "<group>"; };
+		A313A77220AA8A3B00B3B769 /* Memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		A313A77320AA8A3B00B3B769 /* Memento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
+		A313A77520AA90BD00B3B769 /* MementoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoManager.h; sourceTree = "<group>"; };
+		A313A77620AA90BD00B3B769 /* MementoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoManager.m; sourceTree = "<group>"; };
 		A346FC3A20A96D280009A462 /* WorkState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkState.h; sourceTree = "<group>"; };
 		A346FC3B20A96E820009A462 /* Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
 		A346FC3C20A96E820009A462 /* Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
@@ -258,6 +267,19 @@
 			path = "10.观察者模式";
 			sourceTree = "<group>";
 		};
+		A313A76E20AA893100B3B769 /* 14.备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A313A76F20AA89CC00B3B769 /* Originator.h */,
+				A313A77020AA89CC00B3B769 /* Originator.m */,
+				A313A77220AA8A3B00B3B769 /* Memento.h */,
+				A313A77320AA8A3B00B3B769 /* Memento.m */,
+				A313A77520AA90BD00B3B769 /* MementoManager.h */,
+				A313A77620AA90BD00B3B769 /* MementoManager.m */,
+			);
+			path = "14.备忘录模式";
+			sourceTree = "<group>";
+		};
 		A346FC3620A96BB40009A462 /* 12.状态模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,6 +410,7 @@
 				A360762320A57AF600B36E69 /* 11.抽象工厂模式 */,
 				A346FC3620A96BB40009A462 /* 12.状态模式 */,
 				A346FC5020A9A51D0009A462 /* 13.适配器模式 */,
+				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -691,6 +714,7 @@
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
 				A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */,
+				A313A77420AA8A3B00B3B769 /* Memento.m in Sources */,
 				A346FC4F20A9779F0009A462 /* RestState.m in Sources */,
 				A3EAAA7320A2C93500B5D164 /* PersonBuilderDirector.m in Sources */,
 				A360763420A57E7000B36E69 /* AccessFactory.m in Sources */,
@@ -699,6 +723,7 @@
 				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
 				A389CD5E20A1A3C8004F1A59 /* CalculatorAlgorithm.m in Sources */,
 				A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */,
+				A313A77720AA90BD00B3B769 /* MementoManager.m in Sources */,
 				A389CD5220A1A3C8004F1A59 /* AnQiLa.m in Sources */,
 				A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */,
 				A389CD6320A1A3C8004F1A59 /* CalculateAddFactory.m in Sources */,
@@ -714,6 +739,7 @@
 				A389CD5020A1A3C8004F1A59 /* Skill_Q.m in Sources */,
 				A389CD5920A1A3C8004F1A59 /* TestPaper.m in Sources */,
 				A389CD6220A1A3C8004F1A59 /* CalculateFactory.m in Sources */,
+				A313A77120AA89CC00B3B769 /* Originator.m in Sources */,
 				A3112C2F20A433CF00ED42A6 /* StockObserver.m in Sources */,
 				A346FC4620A977450009A462 /* AfternoonState.m in Sources */,
 				A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */,

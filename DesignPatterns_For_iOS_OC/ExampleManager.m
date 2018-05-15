@@ -52,6 +52,9 @@
 
 #import "AduioPlayer.h"
 
+#import "Originator.h"
+#import "MementoManager.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -219,6 +222,25 @@
     [player playWithAudioType:AudioTypeMp3 fileName:@"ten year.mp3"];
     [player playWithAudioType:AudioTypeMp4 fileName:@"hero.mp4"];
     [player playWithAudioType:AudioTypeInvaild fileName:@"never.aa"];
+}
+
+//备忘录模式
++ (void)mementoPattern{
+    //发起者
+    Originator *originator = [[Originator alloc] init];
+    [originator showOriginator];
+    
+    //备忘录
+    Memento *memnto = [originator createMemento];
+    MementoManager *manager = [[MementoManager alloc] initWithGameState:memnto];
+    
+    //修改
+    [originator modifyOriginator];
+    [originator showOriginator];
+    
+    //从备忘录复原
+    [originator rebackMementoWithMemento:[manager getMemento]];
+    [originator showOriginator];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{
