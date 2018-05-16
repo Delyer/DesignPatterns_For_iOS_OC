@@ -15,6 +15,14 @@
 		A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481120AC1B500084A201 /* FinanceDepartment.m */; };
 		A319481620AC4C5C0084A201 /* Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481520AC4C5C0084A201 /* Iterator.m */; };
 		A319481C20AC4C8C0084A201 /* ConcreteIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481B20AC4C8C0084A201 /* ConcreteIterator.m */; };
+		A319483520AC542F0084A201 /* PersonBuilderDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = A319482220AC542F0084A201 /* PersonBuilderDirector.m */; };
+		A319483620AC542F0084A201 /* GamePersonLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = A319482620AC542F0084A201 /* GamePersonLeg.m */; };
+		A319483720AC542F0084A201 /* GamePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A319482720AC542F0084A201 /* GamePerson.m */; };
+		A319483820AC542F0084A201 /* GamePersonArm.m in Sources */ = {isa = PBXBuildFile; fileRef = A319482C20AC542F0084A201 /* GamePersonArm.m */; };
+		A319483920AC542F0084A201 /* GamePersonBody.m in Sources */ = {isa = PBXBuildFile; fileRef = A319482D20AC542F0084A201 /* GamePersonBody.m */; };
+		A319483A20AC542F0084A201 /* GamePersonHead.m in Sources */ = {isa = PBXBuildFile; fileRef = A319482E20AC542F0084A201 /* GamePersonHead.m */; };
+		A319483B20AC542F0084A201 /* FatPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A319483120AC542F0084A201 /* FatPersonBuilder.m */; };
+		A319483C20AC542F0084A201 /* ThinPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A319483320AC542F0084A201 /* ThinPersonBuilder.m */; };
 		A389CCFB20A1A32A004F1A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CCFA20A1A32A004F1A59 /* main.m */; };
 		A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */; };
 		A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */; };
@@ -80,6 +88,23 @@
 		A319481520AC4C5C0084A201 /* Iterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iterator.m; sourceTree = "<group>"; };
 		A319481A20AC4C8C0084A201 /* ConcreteIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteIterator.h; sourceTree = "<group>"; };
 		A319481B20AC4C8C0084A201 /* ConcreteIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteIterator.m; sourceTree = "<group>"; };
+		A319482220AC542F0084A201 /* PersonBuilderDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonBuilderDirector.m; sourceTree = "<group>"; };
+		A319482320AC542F0084A201 /* PersonBuilderDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonBuilderDirector.h; sourceTree = "<group>"; };
+		A319482520AC542F0084A201 /* GamePersonArm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePersonArm.h; sourceTree = "<group>"; };
+		A319482620AC542F0084A201 /* GamePersonLeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePersonLeg.m; sourceTree = "<group>"; };
+		A319482720AC542F0084A201 /* GamePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePerson.m; sourceTree = "<group>"; };
+		A319482820AC542F0084A201 /* GamePersonBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePersonBody.h; sourceTree = "<group>"; };
+		A319482920AC542F0084A201 /* GamePersonHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePersonHead.h; sourceTree = "<group>"; };
+		A319482A20AC542F0084A201 /* GamePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePerson.h; sourceTree = "<group>"; };
+		A319482B20AC542F0084A201 /* GamePersonLeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePersonLeg.h; sourceTree = "<group>"; };
+		A319482C20AC542F0084A201 /* GamePersonArm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePersonArm.m; sourceTree = "<group>"; };
+		A319482D20AC542F0084A201 /* GamePersonBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePersonBody.m; sourceTree = "<group>"; };
+		A319482E20AC542F0084A201 /* GamePersonHead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePersonHead.m; sourceTree = "<group>"; };
+		A319483020AC542F0084A201 /* ThinPersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinPersonBuilder.h; sourceTree = "<group>"; };
+		A319483120AC542F0084A201 /* FatPersonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatPersonBuilder.m; sourceTree = "<group>"; };
+		A319483220AC542F0084A201 /* PersonBuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonBuilderProtocol.h; sourceTree = "<group>"; };
+		A319483320AC542F0084A201 /* ThinPersonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinPersonBuilder.m; sourceTree = "<group>"; };
+		A319483420AC542F0084A201 /* FatPersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatPersonBuilder.h; sourceTree = "<group>"; };
 		A389CCF720A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns_For_iOS_OC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A389CCFA20A1A32A004F1A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyNormal.m; sourceTree = "<group>"; };
@@ -200,6 +225,54 @@
 			path = "16.迭代器模式";
 			sourceTree = "<group>";
 		};
+		A319482020AC542F0084A201 /* 9.建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A319482120AC542F0084A201 /* Director */,
+				A319482420AC542F0084A201 /* Product */,
+				A319482F20AC542F0084A201 /* Builder */,
+			);
+			path = "9.建造者模式";
+			sourceTree = "<group>";
+		};
+		A319482120AC542F0084A201 /* Director */ = {
+			isa = PBXGroup;
+			children = (
+				A319482220AC542F0084A201 /* PersonBuilderDirector.m */,
+				A319482320AC542F0084A201 /* PersonBuilderDirector.h */,
+			);
+			path = Director;
+			sourceTree = "<group>";
+		};
+		A319482420AC542F0084A201 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				A319482520AC542F0084A201 /* GamePersonArm.h */,
+				A319482620AC542F0084A201 /* GamePersonLeg.m */,
+				A319482720AC542F0084A201 /* GamePerson.m */,
+				A319482820AC542F0084A201 /* GamePersonBody.h */,
+				A319482920AC542F0084A201 /* GamePersonHead.h */,
+				A319482A20AC542F0084A201 /* GamePerson.h */,
+				A319482B20AC542F0084A201 /* GamePersonLeg.h */,
+				A319482C20AC542F0084A201 /* GamePersonArm.m */,
+				A319482D20AC542F0084A201 /* GamePersonBody.m */,
+				A319482E20AC542F0084A201 /* GamePersonHead.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		A319482F20AC542F0084A201 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				A319483020AC542F0084A201 /* ThinPersonBuilder.h */,
+				A319483120AC542F0084A201 /* FatPersonBuilder.m */,
+				A319483220AC542F0084A201 /* PersonBuilderProtocol.h */,
+				A319483320AC542F0084A201 /* ThinPersonBuilder.m */,
+				A319483420AC542F0084A201 /* FatPersonBuilder.h */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 		A389CCEE20A1A32A004F1A59 = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +300,7 @@
 				A389CD3320A1A3C7004F1A59 /* 6.原型模式 */,
 				A389CD2420A1A3C7004F1A59 /* 7.模板方法模式 */,
 				A389CD6720A1B4C6004F1A59 /* 8.外观模式 */,
+				A319482020AC542F0084A201 /* 9.建造者模式 */,
 				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
 				A319480920AC162D0084A201 /* 15.组合模式 */,
 				A319481320AC4BAC0084A201 /* 16.迭代器模式 */,
@@ -467,6 +541,7 @@
 				A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */,
 				A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */,
 				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
+				A319483820AC542F0084A201 /* GamePersonArm.m in Sources */,
 				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
 				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
 				A389CD6A20A1B565004F1A59 /* SubSystemOne.m in Sources */,
@@ -474,13 +549,19 @@
 				A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */,
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
+				A319483C20AC542F0084A201 /* ThinPersonBuilder.m in Sources */,
 				A319481620AC4C5C0084A201 /* Iterator.m in Sources */,
 				A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */,
 				A319480F20AC1B3A0084A201 /* HRDepartment.m in Sources */,
+				A319483A20AC542F0084A201 /* GamePersonHead.m in Sources */,
 				A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */,
+				A319483520AC542F0084A201 /* PersonBuilderDirector.m in Sources */,
+				A319483620AC542F0084A201 /* GamePersonLeg.m in Sources */,
 				A313A77420AA8A3B00B3B769 /* Memento.m in Sources */,
 				A389CD5620A1A3C8004F1A59 /* Person.m in Sources */,
 				A389CD4D20A1A3C8004F1A59 /* CashStrategyReturn.m in Sources */,
+				A319483720AC542F0084A201 /* GamePerson.m in Sources */,
+				A319483B20AC542F0084A201 /* FatPersonBuilder.m in Sources */,
 				A319481C20AC4C8C0084A201 /* ConcreteIterator.m in Sources */,
 				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
 				A389CD5E20A1A3C8004F1A59 /* CalculatorAlgorithm.m in Sources */,
@@ -496,6 +577,7 @@
 				A389CD5020A1A3C8004F1A59 /* Skill_Q.m in Sources */,
 				A389CD5920A1A3C8004F1A59 /* TestPaper.m in Sources */,
 				A389CD6220A1A3C8004F1A59 /* CalculateFactory.m in Sources */,
+				A319483920AC542F0084A201 /* GamePersonBody.m in Sources */,
 				A313A77120AA89CC00B3B769 /* Originator.m in Sources */,
 				A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */,
 				A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */,
