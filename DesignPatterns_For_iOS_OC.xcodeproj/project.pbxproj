@@ -23,6 +23,10 @@
 		A319483A20AC542F0084A201 /* GamePersonHead.m in Sources */ = {isa = PBXBuildFile; fileRef = A319482E20AC542F0084A201 /* GamePersonHead.m */; };
 		A319483B20AC542F0084A201 /* FatPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A319483120AC542F0084A201 /* FatPersonBuilder.m */; };
 		A319483C20AC542F0084A201 /* ThinPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A319483320AC542F0084A201 /* ThinPersonBuilder.m */; };
+		A319484720AC545A0084A201 /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = A319483E20AC545A0084A201 /* ConcreteSubject.m */; };
+		A319484820AC545A0084A201 /* StockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A319483F20AC545A0084A201 /* StockObserver.m */; };
+		A319484920AC545A0084A201 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = A319484020AC545A0084A201 /* Subject.m */; };
+		A319484A20AC545A0084A201 /* NBAObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A319484420AC545A0084A201 /* NBAObserver.m */; };
 		A389CCFB20A1A32A004F1A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CCFA20A1A32A004F1A59 /* main.m */; };
 		A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */; };
 		A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */; };
@@ -105,6 +109,15 @@
 		A319483220AC542F0084A201 /* PersonBuilderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonBuilderProtocol.h; sourceTree = "<group>"; };
 		A319483320AC542F0084A201 /* ThinPersonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinPersonBuilder.m; sourceTree = "<group>"; };
 		A319483420AC542F0084A201 /* FatPersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatPersonBuilder.h; sourceTree = "<group>"; };
+		A319483E20AC545A0084A201 /* ConcreteSubject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteSubject.m; sourceTree = "<group>"; };
+		A319483F20AC545A0084A201 /* StockObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockObserver.m; sourceTree = "<group>"; };
+		A319484020AC545A0084A201 /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		A319484120AC545A0084A201 /* NBAObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAObserver.h; sourceTree = "<group>"; };
+		A319484220AC545A0084A201 /* ConcreteSubject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteSubject.h; sourceTree = "<group>"; };
+		A319484320AC545A0084A201 /* StockObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockObserver.h; sourceTree = "<group>"; };
+		A319484420AC545A0084A201 /* NBAObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAObserver.m; sourceTree = "<group>"; };
+		A319484520AC545A0084A201 /* ObserveProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserveProtocol.h; sourceTree = "<group>"; };
+		A319484620AC545A0084A201 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
 		A389CCF720A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns_For_iOS_OC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A389CCFA20A1A32A004F1A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyNormal.m; sourceTree = "<group>"; };
@@ -273,6 +286,22 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		A319483D20AC545A0084A201 /* 10.观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A319483E20AC545A0084A201 /* ConcreteSubject.m */,
+				A319483F20AC545A0084A201 /* StockObserver.m */,
+				A319484020AC545A0084A201 /* Subject.m */,
+				A319484120AC545A0084A201 /* NBAObserver.h */,
+				A319484220AC545A0084A201 /* ConcreteSubject.h */,
+				A319484320AC545A0084A201 /* StockObserver.h */,
+				A319484420AC545A0084A201 /* NBAObserver.m */,
+				A319484520AC545A0084A201 /* ObserveProtocol.h */,
+				A319484620AC545A0084A201 /* Subject.h */,
+			);
+			path = "10.观察者模式";
+			sourceTree = "<group>";
+		};
 		A389CCEE20A1A32A004F1A59 = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +330,7 @@
 				A389CD2420A1A3C7004F1A59 /* 7.模板方法模式 */,
 				A389CD6720A1B4C6004F1A59 /* 8.外观模式 */,
 				A319482020AC542F0084A201 /* 9.建造者模式 */,
+				A319483D20AC545A0084A201 /* 10.观察者模式 */,
 				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
 				A319480920AC162D0084A201 /* 15.组合模式 */,
 				A319481320AC4BAC0084A201 /* 16.迭代器模式 */,
@@ -548,6 +578,7 @@
 				A389CD4F20A1A3C8004F1A59 /* Skills.m in Sources */,
 				A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */,
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
+				A319484820AC545A0084A201 /* StockObserver.m in Sources */,
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
 				A319483C20AC542F0084A201 /* ThinPersonBuilder.m in Sources */,
 				A319481620AC4C5C0084A201 /* Iterator.m in Sources */,
@@ -562,13 +593,16 @@
 				A389CD4D20A1A3C8004F1A59 /* CashStrategyReturn.m in Sources */,
 				A319483720AC542F0084A201 /* GamePerson.m in Sources */,
 				A319483B20AC542F0084A201 /* FatPersonBuilder.m in Sources */,
+				A319484720AC545A0084A201 /* ConcreteSubject.m in Sources */,
 				A319481C20AC4C8C0084A201 /* ConcreteIterator.m in Sources */,
+				A319484A20AC545A0084A201 /* NBAObserver.m in Sources */,
 				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
 				A389CD5E20A1A3C8004F1A59 /* CalculatorAlgorithm.m in Sources */,
 				A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */,
 				A313A77720AA90BD00B3B769 /* MementoManager.m in Sources */,
 				A389CD5220A1A3C8004F1A59 /* AnQiLa.m in Sources */,
 				A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */,
+				A319484920AC545A0084A201 /* Subject.m in Sources */,
 				A389CD6320A1A3C8004F1A59 /* CalculateAddFactory.m in Sources */,
 				A389CD5320A1A3C8004F1A59 /* Finery.m in Sources */,
 				A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */,
