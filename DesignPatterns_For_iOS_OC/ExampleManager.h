@@ -38,6 +38,8 @@
 + (void)adapterPattern;
 //备忘录模式
 + (void)mementoPattern;
+//组合模式
++ (void)compositPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

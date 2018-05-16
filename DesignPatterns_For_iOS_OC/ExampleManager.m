@@ -55,6 +55,10 @@
 #import "Originator.h"
 #import "MementoManager.h"
 
+#import "Company.h"
+#import "HRDepartment.h"
+#import "FinanceDepartment.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -241,6 +245,34 @@
     //从备忘录复原
     [originator rebackMementoWithMemento:[manager getMemento]];
     [originator showOriginator];
+}
+
+//组合模式
++ (void)compositPattern{
+    Company *root = [[Company alloc] initWithName:@"北京总公司"];
+    [root add:[[HRDepartment alloc] initWithName:@"总公司人力资源部"]];
+    [root add:[[FinanceDepartment alloc] initWithName:@"总公司财务部"]];
+    
+    Company *comp = [[Company alloc] initWithName:@"上海华东分公司"];
+    [comp add:[[HRDepartment alloc] initWithName:@"华东分公司人力资源部"]];
+    [comp add:[[FinanceDepartment alloc] initWithName:@"华东分公司财务部"]];
+    [root add:comp];
+    
+    Company *comp1 = [[Company alloc] initWithName:@"南京办事处"];
+    [comp1 add:[[HRDepartment alloc] initWithName:@"南京办事处人力资源部"]];
+    [comp1 add:[[FinanceDepartment alloc] initWithName:@"南京办事处财务部"]];
+    [comp add:comp1];
+    
+    Company *comp2 = [[Company alloc] initWithName:@"杭州办事处"];
+    [comp2 add:[[HRDepartment alloc] initWithName:@"杭州办事处人力资源部"]];
+    [comp2 add:[[FinanceDepartment alloc] initWithName:@"杭州办事处财务部"]];
+    [comp add:comp2];
+    
+    NSLog(@"总公司结构图：");
+    [root display:1];
+    
+    NSLog(@"总公司职责：");
+    [root lineOfDuty];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

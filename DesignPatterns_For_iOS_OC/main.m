@@ -25,6 +25,7 @@ int main(int argc, const char * argv[]) {
         [ExampleManager executeMethod:@selector(statePattern) desc:@"状态模式"];
         [ExampleManager executeMethod:@selector(adapterPattern) desc:@"适配器模式"];
         [ExampleManager executeMethod:@selector(mementoPattern) desc:@"备忘录模式"];
+        [ExampleManager executeMethod:@selector(compositPattern) desc:@"组合模式"];
     }
     return 0;
 }

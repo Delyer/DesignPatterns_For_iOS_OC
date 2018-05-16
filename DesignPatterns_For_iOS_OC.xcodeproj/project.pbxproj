@@ -14,6 +14,9 @@
 		A313A77120AA89CC00B3B769 /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77020AA89CC00B3B769 /* Originator.m */; };
 		A313A77420AA8A3B00B3B769 /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77320AA8A3B00B3B769 /* Memento.m */; };
 		A313A77720AA90BD00B3B769 /* MementoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77620AA90BD00B3B769 /* MementoManager.m */; };
+		A319480C20AC16A20084A201 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = A319480B20AC16A20084A201 /* Company.m */; };
+		A319480F20AC1B3A0084A201 /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319480E20AC1B3A0084A201 /* HRDepartment.m */; };
+		A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481120AC1B500084A201 /* FinanceDepartment.m */; };
 		A346FC3D20A96E820009A462 /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC3C20A96E820009A462 /* Work.m */; };
 		A346FC4020A977220009A462 /* ForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC3F20A977220009A462 /* ForenoonState.m */; };
 		A346FC4320A977310009A462 /* NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4220A977310009A462 /* NoonState.m */; };
@@ -106,6 +109,12 @@
 		A313A77320AA8A3B00B3B769 /* Memento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memento.m; sourceTree = "<group>"; };
 		A313A77520AA90BD00B3B769 /* MementoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MementoManager.h; sourceTree = "<group>"; };
 		A313A77620AA90BD00B3B769 /* MementoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MementoManager.m; sourceTree = "<group>"; };
+		A319480A20AC16A20084A201 /* Company.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		A319480B20AC16A20084A201 /* Company.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		A319480D20AC1B3A0084A201 /* HRDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRDepartment.h; sourceTree = "<group>"; };
+		A319480E20AC1B3A0084A201 /* HRDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
+		A319481020AC1B500084A201 /* FinanceDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinanceDepartment.h; sourceTree = "<group>"; };
+		A319481120AC1B500084A201 /* FinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinanceDepartment.m; sourceTree = "<group>"; };
 		A346FC3A20A96D280009A462 /* WorkState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkState.h; sourceTree = "<group>"; };
 		A346FC3B20A96E820009A462 /* Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
 		A346FC3C20A96E820009A462 /* Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
@@ -280,6 +289,19 @@
 			path = "14.备忘录模式";
 			sourceTree = "<group>";
 		};
+		A319480920AC162D0084A201 /* 15.组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A319480A20AC16A20084A201 /* Company.h */,
+				A319480B20AC16A20084A201 /* Company.m */,
+				A319480D20AC1B3A0084A201 /* HRDepartment.h */,
+				A319480E20AC1B3A0084A201 /* HRDepartment.m */,
+				A319481020AC1B500084A201 /* FinanceDepartment.h */,
+				A319481120AC1B500084A201 /* FinanceDepartment.m */,
+			);
+			path = "15.组合模式";
+			sourceTree = "<group>";
+		};
 		A346FC3620A96BB40009A462 /* 12.状态模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,6 +433,7 @@
 				A346FC3620A96BB40009A462 /* 12.状态模式 */,
 				A346FC5020A9A51D0009A462 /* 13.适配器模式 */,
 				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
+				A319480920AC162D0084A201 /* 15.组合模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -714,6 +737,8 @@
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
 				A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */,
+				A319480F20AC1B3A0084A201 /* HRDepartment.m in Sources */,
+				A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */,
 				A313A77420AA8A3B00B3B769 /* Memento.m in Sources */,
 				A346FC4F20A9779F0009A462 /* RestState.m in Sources */,
 				A3EAAA7320A2C93500B5D164 /* PersonBuilderDirector.m in Sources */,
@@ -734,6 +759,7 @@
 				A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */,
 				A360764820A5821D00B36E69 /* AccessDepartment.m in Sources */,
 				A3EAAA6820A2A53300B5D164 /* GamePersonArm.m in Sources */,
+				A319480C20AC16A20084A201 /* Company.m in Sources */,
 				A389CD5B20A1A3C8004F1A59 /* SchoolGirl.m in Sources */,
 				A346FC4020A977220009A462 /* ForenoonState.m in Sources */,
 				A389CD5020A1A3C8004F1A59 /* Skill_Q.m in Sources */,
