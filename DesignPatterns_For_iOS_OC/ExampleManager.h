@@ -42,6 +42,8 @@
 + (void)compositPattern;
 //迭代器模式
 + (void)iteratorPattern;
+//单例模式
++ (void)singletonPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

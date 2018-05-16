@@ -47,6 +47,7 @@
 		A319489020AC54D40084A201 /* MediaAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A319488820AC54D40084A201 /* MediaAdapter.m */; };
 		A319489120AC54D40084A201 /* MediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A319488B20AC54D40084A201 /* MediaPlayer.m */; };
 		A319489220AC54D40084A201 /* VlcPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A319488D20AC54D40084A201 /* VlcPlayer.m */; };
+		A319489920AC592B0084A201 /* HeroManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A319489820AC592B0084A201 /* HeroManager.m */; };
 		A389CCFB20A1A32A004F1A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CCFA20A1A32A004F1A59 /* main.m */; };
 		A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */; };
 		A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */; };
@@ -183,6 +184,8 @@
 		A319488B20AC54D40084A201 /* MediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlayer.m; sourceTree = "<group>"; };
 		A319488C20AC54D40084A201 /* MediaAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaAdapter.h; sourceTree = "<group>"; };
 		A319488D20AC54D40084A201 /* VlcPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VlcPlayer.m; sourceTree = "<group>"; };
+		A319489720AC592B0084A201 /* HeroManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroManager.h; sourceTree = "<group>"; };
+		A319489820AC592B0084A201 /* HeroManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroManager.m; sourceTree = "<group>"; };
 		A389CCF720A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns_For_iOS_OC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A389CCFA20A1A32A004F1A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyNormal.m; sourceTree = "<group>"; };
@@ -465,6 +468,15 @@
 			path = "13.适配器模式";
 			sourceTree = "<group>";
 		};
+		A319489320AC58470084A201 /* 17.单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A319489720AC592B0084A201 /* HeroManager.h */,
+				A319489820AC592B0084A201 /* HeroManager.m */,
+			);
+			path = "17.单例模式";
+			sourceTree = "<group>";
+		};
 		A389CCEE20A1A32A004F1A59 = {
 			isa = PBXGroup;
 			children = (
@@ -500,6 +512,7 @@
 				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
 				A319480920AC162D0084A201 /* 15.组合模式 */,
 				A319481320AC4BAC0084A201 /* 16.迭代器模式 */,
+				A319489320AC58470084A201 /* 17.单例模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -782,6 +795,7 @@
 				A319488020AC54AF0084A201 /* RestState.m in Sources */,
 				A313A77720AA90BD00B3B769 /* MementoManager.m in Sources */,
 				A389CD5220A1A3C8004F1A59 /* AnQiLa.m in Sources */,
+				A319489920AC592B0084A201 /* HeroManager.m in Sources */,
 				A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */,
 				A319484920AC545A0084A201 /* Subject.m in Sources */,
 				A389CD6320A1A3C8004F1A59 /* CalculateAddFactory.m in Sources */,

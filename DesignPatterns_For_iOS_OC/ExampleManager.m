@@ -61,6 +61,8 @@
 
 #import "ConcreteIterator.h"
 
+#import "HeroManager.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -291,6 +293,19 @@
         NSLog(@"%@ 请买车票",[i currentItem]);
         [i next];
     }
+}
+
+//单例模式
++ (void)singletonPattern{
+    //外部统一创建对象接口
+    HeroManager *manager = [HeroManager sharedInstance];
+    
+    manager.name = @"Dely";
+    manager.leve = 26;
+    [manager getHeroInfo];
+    
+    HeroManager *manager1 = [HeroManager sharedInstance];
+    NSLog(@"manager = %p; manager1 = %p 两个指针指向的对象地址相同(同一个对象，有且只有一个)",manager,manager1);
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

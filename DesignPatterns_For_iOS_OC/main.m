@@ -27,6 +27,7 @@ int main(int argc, const char * argv[]) {
         [ExampleManager executeMethod:@selector(mementoPattern) desc:@"备忘录模式"];
         [ExampleManager executeMethod:@selector(compositPattern) desc:@"组合模式"];
         [ExampleManager executeMethod:@selector(iteratorPattern) desc:@"迭代器模式"];
+        [ExampleManager executeMethod:@selector(singletonPattern) desc:@"单例模式"];
     }
     return 0;
 }
