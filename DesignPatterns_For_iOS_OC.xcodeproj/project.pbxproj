@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A3112C2820A42BE900ED42A6 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C2720A42BE900ED42A6 /* Subject.m */; };
-		A3112C2C20A431DD00ED42A6 /* ConcreteSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C2B20A431DD00ED42A6 /* ConcreteSubject.m */; };
-		A3112C2F20A433CF00ED42A6 /* StockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C2E20A433CF00ED42A6 /* StockObserver.m */; };
-		A3112C3220A4341800ED42A6 /* NBAObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A3112C3120A4341800ED42A6 /* NBAObserver.m */; };
 		A313A77120AA89CC00B3B769 /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77020AA89CC00B3B769 /* Originator.m */; };
 		A313A77420AA8A3B00B3B769 /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77320AA8A3B00B3B769 /* Memento.m */; };
 		A313A77720AA90BD00B3B769 /* MementoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77620AA90BD00B3B769 /* MementoManager.m */; };
@@ -19,26 +15,6 @@
 		A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481120AC1B500084A201 /* FinanceDepartment.m */; };
 		A319481620AC4C5C0084A201 /* Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481520AC4C5C0084A201 /* Iterator.m */; };
 		A319481C20AC4C8C0084A201 /* ConcreteIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481B20AC4C8C0084A201 /* ConcreteIterator.m */; };
-		A346FC3D20A96E820009A462 /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC3C20A96E820009A462 /* Work.m */; };
-		A346FC4020A977220009A462 /* ForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC3F20A977220009A462 /* ForenoonState.m */; };
-		A346FC4320A977310009A462 /* NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4220A977310009A462 /* NoonState.m */; };
-		A346FC4620A977450009A462 /* AfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4520A977450009A462 /* AfternoonState.m */; };
-		A346FC4920A9776F0009A462 /* EveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4820A9776F0009A462 /* EveningState.m */; };
-		A346FC4C20A9778F0009A462 /* SleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4B20A9778F0009A462 /* SleepingState.m */; };
-		A346FC4F20A9779F0009A462 /* RestState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4E20A9779F0009A462 /* RestState.m */; };
-		A346FC5320A9A6080009A462 /* MediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC5220A9A6080009A462 /* MediaPlayer.m */; };
-		A346FC5720A9A7980009A462 /* VlcPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC5620A9A7980009A462 /* VlcPlayer.m */; };
-		A346FC5A20A9A7A30009A462 /* Mp4Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC5920A9A7A30009A462 /* Mp4Player.m */; };
-		A346FC6020A9AA020009A462 /* MediaAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC5F20A9AA020009A462 /* MediaAdapter.m */; };
-		A346FC6320A9AC140009A462 /* AduioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC6220A9AC140009A462 /* AduioPlayer.m */; };
-		A360763120A57DF400B36E69 /* SqlserverFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A360763020A57DF400B36E69 /* SqlserverFactory.m */; };
-		A360763420A57E7000B36E69 /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A360763320A57E7000B36E69 /* AccessFactory.m */; };
-		A360763720A57F1E00B36E69 /* SQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A360763620A57F1E00B36E69 /* SQLUser.m */; };
-		A360763A20A57F3000B36E69 /* SQLDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A360763920A57F3000B36E69 /* SQLDepartment.m */; };
-		A360763F20A580F500B36E69 /* SqlserverUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A360763E20A580F500B36E69 /* SqlserverUser.m */; };
-		A360764220A5815600B36E69 /* AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A360764120A5815600B36E69 /* AccessUser.m */; };
-		A360764520A5821200B36E69 /* SqlserverDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A360764420A5821200B36E69 /* SqlserverDepartment.m */; };
-		A360764820A5821D00B36E69 /* AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A360764720A5821D00B36E69 /* AccessDepartment.m */; };
 		A389CCFB20A1A32A004F1A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CCFA20A1A32A004F1A59 /* main.m */; };
 		A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */; };
 		A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */; };
@@ -73,14 +49,6 @@
 		A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD6C20A1B573004F1A59 /* SubSystemTwo.m */; };
 		A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD6F20A1B580004F1A59 /* SubSystemThree.m */; };
 		A389CD7320A1B590004F1A59 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD7220A1B590004F1A59 /* Facade.m */; };
-		A3EAAA5C20A2A46600B5D164 /* GamePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA5B20A2A46600B5D164 /* GamePerson.m */; };
-		A3EAAA5F20A2A4A400B5D164 /* GamePersonHead.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA5E20A2A4A400B5D164 /* GamePersonHead.m */; };
-		A3EAAA6220A2A4D600B5D164 /* GamePersonBody.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6120A2A4D600B5D164 /* GamePersonBody.m */; };
-		A3EAAA6520A2A52300B5D164 /* GamePersonLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6420A2A52300B5D164 /* GamePersonLeg.m */; };
-		A3EAAA6820A2A53300B5D164 /* GamePersonArm.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6720A2A53300B5D164 /* GamePersonArm.m */; };
-		A3EAAA6D20A2B6CE00B5D164 /* ThinPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6C20A2B6CE00B5D164 /* ThinPersonBuilder.m */; };
-		A3EAAA7020A2B6DD00B5D164 /* FatPersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA6F20A2B6DD00B5D164 /* FatPersonBuilder.m */; };
-		A3EAAA7320A2C93500B5D164 /* PersonBuilderDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EAAA7220A2C93500B5D164 /* PersonBuilderDirector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -96,15 +64,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A3112C2620A42BE900ED42A6 /* Subject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
-		A3112C2720A42BE900ED42A6 /* Subject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
-		A3112C2920A42C3600ED42A6 /* ObserveProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObserveProtocol.h; sourceTree = "<group>"; };
-		A3112C2A20A431DD00ED42A6 /* ConcreteSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteSubject.h; sourceTree = "<group>"; };
-		A3112C2B20A431DD00ED42A6 /* ConcreteSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteSubject.m; sourceTree = "<group>"; };
-		A3112C2D20A433CF00ED42A6 /* StockObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StockObserver.h; sourceTree = "<group>"; };
-		A3112C2E20A433CF00ED42A6 /* StockObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockObserver.m; sourceTree = "<group>"; };
-		A3112C3020A4341800ED42A6 /* NBAObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NBAObserver.h; sourceTree = "<group>"; };
-		A3112C3120A4341800ED42A6 /* NBAObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NBAObserver.m; sourceTree = "<group>"; };
 		A313A76F20AA89CC00B3B769 /* Originator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Originator.h; sourceTree = "<group>"; };
 		A313A77020AA89CC00B3B769 /* Originator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Originator.m; sourceTree = "<group>"; };
 		A313A77220AA8A3B00B3B769 /* Memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
@@ -121,51 +80,6 @@
 		A319481520AC4C5C0084A201 /* Iterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iterator.m; sourceTree = "<group>"; };
 		A319481A20AC4C8C0084A201 /* ConcreteIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteIterator.h; sourceTree = "<group>"; };
 		A319481B20AC4C8C0084A201 /* ConcreteIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteIterator.m; sourceTree = "<group>"; };
-		A346FC3A20A96D280009A462 /* WorkState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkState.h; sourceTree = "<group>"; };
-		A346FC3B20A96E820009A462 /* Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
-		A346FC3C20A96E820009A462 /* Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
-		A346FC3E20A977220009A462 /* ForenoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForenoonState.h; sourceTree = "<group>"; };
-		A346FC3F20A977220009A462 /* ForenoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForenoonState.m; sourceTree = "<group>"; };
-		A346FC4120A977310009A462 /* NoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoonState.h; sourceTree = "<group>"; };
-		A346FC4220A977310009A462 /* NoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoonState.m; sourceTree = "<group>"; };
-		A346FC4420A977450009A462 /* AfternoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfternoonState.h; sourceTree = "<group>"; };
-		A346FC4520A977450009A462 /* AfternoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfternoonState.m; sourceTree = "<group>"; };
-		A346FC4720A9776F0009A462 /* EveningState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EveningState.h; sourceTree = "<group>"; };
-		A346FC4820A9776F0009A462 /* EveningState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveningState.m; sourceTree = "<group>"; };
-		A346FC4A20A9778F0009A462 /* SleepingState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SleepingState.h; sourceTree = "<group>"; };
-		A346FC4B20A9778F0009A462 /* SleepingState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepingState.m; sourceTree = "<group>"; };
-		A346FC4D20A9779F0009A462 /* RestState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestState.h; sourceTree = "<group>"; };
-		A346FC4E20A9779F0009A462 /* RestState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestState.m; sourceTree = "<group>"; };
-		A346FC5120A9A6080009A462 /* MediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
-		A346FC5220A9A6080009A462 /* MediaPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaPlayer.m; sourceTree = "<group>"; };
-		A346FC5420A9A71E0009A462 /* AdvanceMediaPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdvanceMediaPlayer.h; sourceTree = "<group>"; };
-		A346FC5520A9A7980009A462 /* VlcPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VlcPlayer.h; sourceTree = "<group>"; };
-		A346FC5620A9A7980009A462 /* VlcPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VlcPlayer.m; sourceTree = "<group>"; };
-		A346FC5820A9A7A30009A462 /* Mp4Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mp4Player.h; sourceTree = "<group>"; };
-		A346FC5920A9A7A30009A462 /* Mp4Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mp4Player.m; sourceTree = "<group>"; };
-		A346FC5E20A9AA020009A462 /* MediaAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaAdapter.h; sourceTree = "<group>"; };
-		A346FC5F20A9AA020009A462 /* MediaAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaAdapter.m; sourceTree = "<group>"; };
-		A346FC6120A9AC130009A462 /* AduioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AduioPlayer.h; sourceTree = "<group>"; };
-		A346FC6220A9AC140009A462 /* AduioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AduioPlayer.m; sourceTree = "<group>"; };
-		A360762E20A57D5E00B36E69 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
-		A360762F20A57DF300B36E69 /* SqlserverFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqlserverFactory.h; sourceTree = "<group>"; };
-		A360763020A57DF400B36E69 /* SqlserverFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlserverFactory.m; sourceTree = "<group>"; };
-		A360763220A57E7000B36E69 /* AccessFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessFactory.h; sourceTree = "<group>"; };
-		A360763320A57E7000B36E69 /* AccessFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
-		A360763520A57F1E00B36E69 /* SQLUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLUser.h; sourceTree = "<group>"; };
-		A360763620A57F1E00B36E69 /* SQLUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLUser.m; sourceTree = "<group>"; };
-		A360763820A57F3000B36E69 /* SQLDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQLDepartment.h; sourceTree = "<group>"; };
-		A360763920A57F3000B36E69 /* SQLDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLDepartment.m; sourceTree = "<group>"; };
-		A360763B20A57F9E00B36E69 /* UserOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserOperation.h; sourceTree = "<group>"; };
-		A360763C20A57FAD00B36E69 /* DepartmentOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DepartmentOperation.h; sourceTree = "<group>"; };
-		A360763D20A580F500B36E69 /* SqlserverUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqlserverUser.h; sourceTree = "<group>"; };
-		A360763E20A580F500B36E69 /* SqlserverUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlserverUser.m; sourceTree = "<group>"; };
-		A360764020A5815600B36E69 /* AccessUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessUser.h; sourceTree = "<group>"; };
-		A360764120A5815600B36E69 /* AccessUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessUser.m; sourceTree = "<group>"; };
-		A360764320A5821200B36E69 /* SqlserverDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SqlserverDepartment.h; sourceTree = "<group>"; };
-		A360764420A5821200B36E69 /* SqlserverDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlserverDepartment.m; sourceTree = "<group>"; };
-		A360764620A5821D00B36E69 /* AccessDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessDepartment.h; sourceTree = "<group>"; };
-		A360764720A5821D00B36E69 /* AccessDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessDepartment.m; sourceTree = "<group>"; };
 		A389CCF720A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns_For_iOS_OC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A389CCFA20A1A32A004F1A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyNormal.m; sourceTree = "<group>"; };
@@ -236,23 +150,6 @@
 		A389CD6F20A1B580004F1A59 /* SubSystemThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubSystemThree.m; sourceTree = "<group>"; };
 		A389CD7120A1B590004F1A59 /* Facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
 		A389CD7220A1B590004F1A59 /* Facade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
-		A3EAAA5A20A2A46600B5D164 /* GamePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePerson.h; sourceTree = "<group>"; };
-		A3EAAA5B20A2A46600B5D164 /* GamePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePerson.m; sourceTree = "<group>"; };
-		A3EAAA5D20A2A4A400B5D164 /* GamePersonHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePersonHead.h; sourceTree = "<group>"; };
-		A3EAAA5E20A2A4A400B5D164 /* GamePersonHead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePersonHead.m; sourceTree = "<group>"; };
-		A3EAAA6020A2A4D600B5D164 /* GamePersonBody.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePersonBody.h; sourceTree = "<group>"; };
-		A3EAAA6120A2A4D600B5D164 /* GamePersonBody.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePersonBody.m; sourceTree = "<group>"; };
-		A3EAAA6320A2A52300B5D164 /* GamePersonLeg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePersonLeg.h; sourceTree = "<group>"; };
-		A3EAAA6420A2A52300B5D164 /* GamePersonLeg.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePersonLeg.m; sourceTree = "<group>"; };
-		A3EAAA6620A2A53300B5D164 /* GamePersonArm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePersonArm.h; sourceTree = "<group>"; };
-		A3EAAA6720A2A53300B5D164 /* GamePersonArm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePersonArm.m; sourceTree = "<group>"; };
-		A3EAAA6A20A2B59500B5D164 /* PersonBuilderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonBuilderProtocol.h; sourceTree = "<group>"; };
-		A3EAAA6B20A2B6CE00B5D164 /* ThinPersonBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThinPersonBuilder.h; sourceTree = "<group>"; };
-		A3EAAA6C20A2B6CE00B5D164 /* ThinPersonBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinPersonBuilder.m; sourceTree = "<group>"; };
-		A3EAAA6E20A2B6DD00B5D164 /* FatPersonBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FatPersonBuilder.h; sourceTree = "<group>"; };
-		A3EAAA6F20A2B6DD00B5D164 /* FatPersonBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FatPersonBuilder.m; sourceTree = "<group>"; };
-		A3EAAA7120A2C93500B5D164 /* PersonBuilderDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonBuilderDirector.h; sourceTree = "<group>"; };
-		A3EAAA7220A2C93500B5D164 /* PersonBuilderDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonBuilderDirector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,22 +163,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A3112C2520A4296B00ED42A6 /* 10.观察者模式 */ = {
-			isa = PBXGroup;
-			children = (
-				A3112C2620A42BE900ED42A6 /* Subject.h */,
-				A3112C2720A42BE900ED42A6 /* Subject.m */,
-				A3112C2A20A431DD00ED42A6 /* ConcreteSubject.h */,
-				A3112C2B20A431DD00ED42A6 /* ConcreteSubject.m */,
-				A3112C2920A42C3600ED42A6 /* ObserveProtocol.h */,
-				A3112C2D20A433CF00ED42A6 /* StockObserver.h */,
-				A3112C2E20A433CF00ED42A6 /* StockObserver.m */,
-				A3112C3020A4341800ED42A6 /* NBAObserver.h */,
-				A3112C3120A4341800ED42A6 /* NBAObserver.m */,
-			);
-			path = "10.观察者模式";
-			sourceTree = "<group>";
-		};
 		A313A76E20AA893100B3B769 /* 14.备忘录模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -319,104 +200,6 @@
 			path = "16.迭代器模式";
 			sourceTree = "<group>";
 		};
-		A346FC3620A96BB40009A462 /* 12.状态模式 */ = {
-			isa = PBXGroup;
-			children = (
-				A346FC3A20A96D280009A462 /* WorkState.h */,
-				A346FC3B20A96E820009A462 /* Work.h */,
-				A346FC3C20A96E820009A462 /* Work.m */,
-				A346FC3E20A977220009A462 /* ForenoonState.h */,
-				A346FC3F20A977220009A462 /* ForenoonState.m */,
-				A346FC4120A977310009A462 /* NoonState.h */,
-				A346FC4220A977310009A462 /* NoonState.m */,
-				A346FC4420A977450009A462 /* AfternoonState.h */,
-				A346FC4520A977450009A462 /* AfternoonState.m */,
-				A346FC4720A9776F0009A462 /* EveningState.h */,
-				A346FC4820A9776F0009A462 /* EveningState.m */,
-				A346FC4A20A9778F0009A462 /* SleepingState.h */,
-				A346FC4B20A9778F0009A462 /* SleepingState.m */,
-				A346FC4D20A9779F0009A462 /* RestState.h */,
-				A346FC4E20A9779F0009A462 /* RestState.m */,
-			);
-			path = "12.状态模式";
-			sourceTree = "<group>";
-		};
-		A346FC5020A9A51D0009A462 /* 13.适配器模式 */ = {
-			isa = PBXGroup;
-			children = (
-				A346FC5120A9A6080009A462 /* MediaPlayer.h */,
-				A346FC5220A9A6080009A462 /* MediaPlayer.m */,
-				A346FC5420A9A71E0009A462 /* AdvanceMediaPlayer.h */,
-				A346FC5520A9A7980009A462 /* VlcPlayer.h */,
-				A346FC5620A9A7980009A462 /* VlcPlayer.m */,
-				A346FC5820A9A7A30009A462 /* Mp4Player.h */,
-				A346FC5920A9A7A30009A462 /* Mp4Player.m */,
-				A346FC5E20A9AA020009A462 /* MediaAdapter.h */,
-				A346FC5F20A9AA020009A462 /* MediaAdapter.m */,
-				A346FC6120A9AC130009A462 /* AduioPlayer.h */,
-				A346FC6220A9AC140009A462 /* AduioPlayer.m */,
-			);
-			path = "13.适配器模式";
-			sourceTree = "<group>";
-		};
-		A360762320A57AF600B36E69 /* 11.抽象工厂模式 */ = {
-			isa = PBXGroup;
-			children = (
-				A360762420A57BC800B36E69 /* 具体要操作的对象 */,
-				A360762520A57BF100B36E69 /* SQL工厂 */,
-				A360762720A57C2900B36E69 /* SQL对User对象的操作 */,
-				A360762620A57C2700B36E69 /* SQL对Department对象的操作 */,
-			);
-			path = "11.抽象工厂模式";
-			sourceTree = "<group>";
-		};
-		A360762420A57BC800B36E69 /* 具体要操作的对象 */ = {
-			isa = PBXGroup;
-			children = (
-				A360763520A57F1E00B36E69 /* SQLUser.h */,
-				A360763620A57F1E00B36E69 /* SQLUser.m */,
-				A360763820A57F3000B36E69 /* SQLDepartment.h */,
-				A360763920A57F3000B36E69 /* SQLDepartment.m */,
-			);
-			path = "具体要操作的对象";
-			sourceTree = "<group>";
-		};
-		A360762520A57BF100B36E69 /* SQL工厂 */ = {
-			isa = PBXGroup;
-			children = (
-				A360762E20A57D5E00B36E69 /* AbstractFactory.h */,
-				A360762F20A57DF300B36E69 /* SqlserverFactory.h */,
-				A360763020A57DF400B36E69 /* SqlserverFactory.m */,
-				A360763220A57E7000B36E69 /* AccessFactory.h */,
-				A360763320A57E7000B36E69 /* AccessFactory.m */,
-			);
-			path = "SQL工厂";
-			sourceTree = "<group>";
-		};
-		A360762620A57C2700B36E69 /* SQL对Department对象的操作 */ = {
-			isa = PBXGroup;
-			children = (
-				A360763C20A57FAD00B36E69 /* DepartmentOperation.h */,
-				A360764320A5821200B36E69 /* SqlserverDepartment.h */,
-				A360764420A5821200B36E69 /* SqlserverDepartment.m */,
-				A360764620A5821D00B36E69 /* AccessDepartment.h */,
-				A360764720A5821D00B36E69 /* AccessDepartment.m */,
-			);
-			path = "SQL对Department对象的操作";
-			sourceTree = "<group>";
-		};
-		A360762720A57C2900B36E69 /* SQL对User对象的操作 */ = {
-			isa = PBXGroup;
-			children = (
-				A360763B20A57F9E00B36E69 /* UserOperation.h */,
-				A360763D20A580F500B36E69 /* SqlserverUser.h */,
-				A360763E20A580F500B36E69 /* SqlserverUser.m */,
-				A360764020A5815600B36E69 /* AccessUser.h */,
-				A360764120A5815600B36E69 /* AccessUser.m */,
-			);
-			path = "SQL对User对象的操作";
-			sourceTree = "<group>";
-		};
 		A389CCEE20A1A32A004F1A59 = {
 			isa = PBXGroup;
 			children = (
@@ -444,11 +227,6 @@
 				A389CD3320A1A3C7004F1A59 /* 6.原型模式 */,
 				A389CD2420A1A3C7004F1A59 /* 7.模板方法模式 */,
 				A389CD6720A1B4C6004F1A59 /* 8.外观模式 */,
-				A3EAAA5620A2A3EB00B5D164 /* 9.建造者模式 */,
-				A3112C2520A4296B00ED42A6 /* 10.观察者模式 */,
-				A360762320A57AF600B36E69 /* 11.抽象工厂模式 */,
-				A346FC3620A96BB40009A462 /* 12.状态模式 */,
-				A346FC5020A9A51D0009A462 /* 13.适配器模式 */,
 				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
 				A319480920AC162D0084A201 /* 15.组合模式 */,
 				A319481320AC4BAC0084A201 /* 16.迭代器模式 */,
@@ -629,54 +407,6 @@
 			path = "8.外观模式";
 			sourceTree = "<group>";
 		};
-		A3EAAA5620A2A3EB00B5D164 /* 9.建造者模式 */ = {
-			isa = PBXGroup;
-			children = (
-				A3EAAA5920A2A42200B5D164 /* Product */,
-				A3EAAA5720A2A40C00B5D164 /* Builder */,
-				A3EAAA5820A2A41600B5D164 /* Director */,
-			);
-			path = "9.建造者模式";
-			sourceTree = "<group>";
-		};
-		A3EAAA5720A2A40C00B5D164 /* Builder */ = {
-			isa = PBXGroup;
-			children = (
-				A3EAAA6A20A2B59500B5D164 /* PersonBuilderProtocol.h */,
-				A3EAAA6B20A2B6CE00B5D164 /* ThinPersonBuilder.h */,
-				A3EAAA6C20A2B6CE00B5D164 /* ThinPersonBuilder.m */,
-				A3EAAA6E20A2B6DD00B5D164 /* FatPersonBuilder.h */,
-				A3EAAA6F20A2B6DD00B5D164 /* FatPersonBuilder.m */,
-			);
-			path = Builder;
-			sourceTree = "<group>";
-		};
-		A3EAAA5820A2A41600B5D164 /* Director */ = {
-			isa = PBXGroup;
-			children = (
-				A3EAAA7120A2C93500B5D164 /* PersonBuilderDirector.h */,
-				A3EAAA7220A2C93500B5D164 /* PersonBuilderDirector.m */,
-			);
-			path = Director;
-			sourceTree = "<group>";
-		};
-		A3EAAA5920A2A42200B5D164 /* Product */ = {
-			isa = PBXGroup;
-			children = (
-				A3EAAA5A20A2A46600B5D164 /* GamePerson.h */,
-				A3EAAA5B20A2A46600B5D164 /* GamePerson.m */,
-				A3EAAA5D20A2A4A400B5D164 /* GamePersonHead.h */,
-				A3EAAA5E20A2A4A400B5D164 /* GamePersonHead.m */,
-				A3EAAA6020A2A4D600B5D164 /* GamePersonBody.h */,
-				A3EAAA6120A2A4D600B5D164 /* GamePersonBody.m */,
-				A3EAAA6320A2A52300B5D164 /* GamePersonLeg.h */,
-				A3EAAA6420A2A52300B5D164 /* GamePersonLeg.m */,
-				A3EAAA6620A2A53300B5D164 /* GamePersonArm.h */,
-				A3EAAA6720A2A53300B5D164 /* GamePersonArm.m */,
-			);
-			path = Product;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -734,21 +464,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A346FC3D20A96E820009A462 /* Work.m in Sources */,
-				A346FC5320A9A6080009A462 /* MediaPlayer.m in Sources */,
 				A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */,
-				A346FC4C20A9778F0009A462 /* SleepingState.m in Sources */,
-				A346FC5A20A9A7A30009A462 /* Mp4Player.m in Sources */,
 				A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */,
-				A3EAAA5F20A2A4A400B5D164 /* GamePersonHead.m in Sources */,
-				A3112C3220A4341800ED42A6 /* NBAObserver.m in Sources */,
-				A3112C2C20A431DD00ED42A6 /* ConcreteSubject.m in Sources */,
 				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
-				A346FC6020A9AA020009A462 /* MediaAdapter.m in Sources */,
-				A3112C2820A42BE900ED42A6 /* Subject.m in Sources */,
 				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
 				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
-				A346FC4920A9776F0009A462 /* EveningState.m in Sources */,
 				A389CD6A20A1B565004F1A59 /* SubSystemOne.m in Sources */,
 				A389CD4F20A1A3C8004F1A59 /* Skills.m in Sources */,
 				A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */,
@@ -759,9 +479,6 @@
 				A319480F20AC1B3A0084A201 /* HRDepartment.m in Sources */,
 				A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */,
 				A313A77420AA8A3B00B3B769 /* Memento.m in Sources */,
-				A346FC4F20A9779F0009A462 /* RestState.m in Sources */,
-				A3EAAA7320A2C93500B5D164 /* PersonBuilderDirector.m in Sources */,
-				A360763420A57E7000B36E69 /* AccessFactory.m in Sources */,
 				A389CD5620A1A3C8004F1A59 /* Person.m in Sources */,
 				A389CD4D20A1A3C8004F1A59 /* CashStrategyReturn.m in Sources */,
 				A319481C20AC4C8C0084A201 /* ConcreteIterator.m in Sources */,
@@ -772,42 +489,23 @@
 				A389CD5220A1A3C8004F1A59 /* AnQiLa.m in Sources */,
 				A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */,
 				A389CD6320A1A3C8004F1A59 /* CalculateAddFactory.m in Sources */,
-				A3EAAA5C20A2A46600B5D164 /* GamePerson.m in Sources */,
 				A389CD5320A1A3C8004F1A59 /* Finery.m in Sources */,
-				A346FC5720A9A7980009A462 /* VlcPlayer.m in Sources */,
-				A3EAAA7020A2B6DD00B5D164 /* FatPersonBuilder.m in Sources */,
 				A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */,
-				A360764820A5821D00B36E69 /* AccessDepartment.m in Sources */,
-				A3EAAA6820A2A53300B5D164 /* GamePersonArm.m in Sources */,
 				A319480C20AC16A20084A201 /* Company.m in Sources */,
 				A389CD5B20A1A3C8004F1A59 /* SchoolGirl.m in Sources */,
-				A346FC4020A977220009A462 /* ForenoonState.m in Sources */,
 				A389CD5020A1A3C8004F1A59 /* Skill_Q.m in Sources */,
 				A389CD5920A1A3C8004F1A59 /* TestPaper.m in Sources */,
 				A389CD6220A1A3C8004F1A59 /* CalculateFactory.m in Sources */,
 				A313A77120AA89CC00B3B769 /* Originator.m in Sources */,
-				A3112C2F20A433CF00ED42A6 /* StockObserver.m in Sources */,
-				A346FC4620A977450009A462 /* AfternoonState.m in Sources */,
 				A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */,
-				A360763A20A57F3000B36E69 /* SQLDepartment.m in Sources */,
 				A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */,
 				A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */,
-				A3EAAA6D20A2B6CE00B5D164 /* ThinPersonBuilder.m in Sources */,
-				A360763F20A580F500B36E69 /* SqlserverUser.m in Sources */,
 				A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */,
 				A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */,
-				A346FC4320A977310009A462 /* NoonState.m in Sources */,
 				A389CCFB20A1A32A004F1A59 /* main.m in Sources */,
 				A389CD4C20A1A3C8004F1A59 /* CashContextFactory.m in Sources */,
 				A389CD6620A1A3C8004F1A59 /* ExampleManager.m in Sources */,
-				A3EAAA6520A2A52300B5D164 /* GamePersonLeg.m in Sources */,
-				A346FC6320A9AC140009A462 /* AduioPlayer.m in Sources */,
-				A3EAAA6220A2A4D600B5D164 /* GamePersonBody.m in Sources */,
-				A360764220A5815600B36E69 /* AccessUser.m in Sources */,
-				A360764520A5821200B36E69 /* SqlserverDepartment.m in Sources */,
 				A389CD4E20A1A3C8004F1A59 /* Skill_W.m in Sources */,
-				A360763720A57F1E00B36E69 /* SQLUser.m in Sources */,
-				A360763120A57DF400B36E69 /* SqlserverFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
