@@ -27,6 +27,14 @@
 		A319484820AC545A0084A201 /* StockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A319483F20AC545A0084A201 /* StockObserver.m */; };
 		A319484920AC545A0084A201 /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = A319484020AC545A0084A201 /* Subject.m */; };
 		A319484A20AC545A0084A201 /* NBAObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A319484420AC545A0084A201 /* NBAObserver.m */; };
+		A319486320AC54920084A201 /* SQLDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319484F20AC54920084A201 /* SQLDepartment.m */; };
+		A319486420AC54920084A201 /* SQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A319485020AC54920084A201 /* SQLUser.m */; };
+		A319486520AC54920084A201 /* AccessFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A319485220AC54920084A201 /* AccessFactory.m */; };
+		A319486620AC54920084A201 /* SqlserverFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A319485620AC54920084A201 /* SqlserverFactory.m */; };
+		A319486720AC54920084A201 /* AccessDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319485820AC54920084A201 /* AccessDepartment.m */; };
+		A319486820AC54920084A201 /* SqlserverDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319485B20AC54920084A201 /* SqlserverDepartment.m */; };
+		A319486920AC54920084A201 /* AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A319486120AC54920084A201 /* AccessUser.m */; };
+		A319486A20AC54920084A201 /* SqlserverUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A319486220AC54920084A201 /* SqlserverUser.m */; };
 		A389CCFB20A1A32A004F1A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CCFA20A1A32A004F1A59 /* main.m */; };
 		A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */; };
 		A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */; };
@@ -118,6 +126,25 @@
 		A319484420AC545A0084A201 /* NBAObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAObserver.m; sourceTree = "<group>"; };
 		A319484520AC545A0084A201 /* ObserveProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserveProtocol.h; sourceTree = "<group>"; };
 		A319484620AC545A0084A201 /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		A319484D20AC54920084A201 /* SQLDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLDepartment.h; sourceTree = "<group>"; };
+		A319484E20AC54920084A201 /* SQLUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLUser.h; sourceTree = "<group>"; };
+		A319484F20AC54920084A201 /* SQLDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLDepartment.m; sourceTree = "<group>"; };
+		A319485020AC54920084A201 /* SQLUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLUser.m; sourceTree = "<group>"; };
+		A319485220AC54920084A201 /* AccessFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessFactory.m; sourceTree = "<group>"; };
+		A319485320AC54920084A201 /* SqlserverFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlserverFactory.h; sourceTree = "<group>"; };
+		A319485420AC54920084A201 /* AccessFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessFactory.h; sourceTree = "<group>"; };
+		A319485520AC54920084A201 /* AbstractFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		A319485620AC54920084A201 /* SqlserverFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlserverFactory.m; sourceTree = "<group>"; };
+		A319485820AC54920084A201 /* AccessDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessDepartment.m; sourceTree = "<group>"; };
+		A319485920AC54920084A201 /* SqlserverDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlserverDepartment.h; sourceTree = "<group>"; };
+		A319485A20AC54920084A201 /* DepartmentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentOperation.h; sourceTree = "<group>"; };
+		A319485B20AC54920084A201 /* SqlserverDepartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlserverDepartment.m; sourceTree = "<group>"; };
+		A319485C20AC54920084A201 /* AccessDepartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessDepartment.h; sourceTree = "<group>"; };
+		A319485E20AC54920084A201 /* AccessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessUser.h; sourceTree = "<group>"; };
+		A319485F20AC54920084A201 /* SqlserverUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlserverUser.h; sourceTree = "<group>"; };
+		A319486020AC54920084A201 /* UserOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOperation.h; sourceTree = "<group>"; };
+		A319486120AC54920084A201 /* AccessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessUser.m; sourceTree = "<group>"; };
+		A319486220AC54920084A201 /* SqlserverUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlserverUser.m; sourceTree = "<group>"; };
 		A389CCF720A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns_For_iOS_OC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A389CCFA20A1A32A004F1A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyNormal.m; sourceTree = "<group>"; };
@@ -302,6 +329,64 @@
 			path = "10.观察者模式";
 			sourceTree = "<group>";
 		};
+		A319484B20AC54920084A201 /* 11.抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A319484C20AC54920084A201 /* 具体要操作的对象 */,
+				A319485120AC54920084A201 /* SQL工厂 */,
+				A319485720AC54920084A201 /* SQL对Department对象的操作 */,
+				A319485D20AC54920084A201 /* SQL对User对象的操作 */,
+			);
+			path = "11.抽象工厂模式";
+			sourceTree = "<group>";
+		};
+		A319484C20AC54920084A201 /* 具体要操作的对象 */ = {
+			isa = PBXGroup;
+			children = (
+				A319484D20AC54920084A201 /* SQLDepartment.h */,
+				A319484E20AC54920084A201 /* SQLUser.h */,
+				A319484F20AC54920084A201 /* SQLDepartment.m */,
+				A319485020AC54920084A201 /* SQLUser.m */,
+			);
+			path = "具体要操作的对象";
+			sourceTree = "<group>";
+		};
+		A319485120AC54920084A201 /* SQL工厂 */ = {
+			isa = PBXGroup;
+			children = (
+				A319485220AC54920084A201 /* AccessFactory.m */,
+				A319485320AC54920084A201 /* SqlserverFactory.h */,
+				A319485420AC54920084A201 /* AccessFactory.h */,
+				A319485520AC54920084A201 /* AbstractFactory.h */,
+				A319485620AC54920084A201 /* SqlserverFactory.m */,
+			);
+			path = "SQL工厂";
+			sourceTree = "<group>";
+		};
+		A319485720AC54920084A201 /* SQL对Department对象的操作 */ = {
+			isa = PBXGroup;
+			children = (
+				A319485820AC54920084A201 /* AccessDepartment.m */,
+				A319485920AC54920084A201 /* SqlserverDepartment.h */,
+				A319485A20AC54920084A201 /* DepartmentOperation.h */,
+				A319485B20AC54920084A201 /* SqlserverDepartment.m */,
+				A319485C20AC54920084A201 /* AccessDepartment.h */,
+			);
+			path = "SQL对Department对象的操作";
+			sourceTree = "<group>";
+		};
+		A319485D20AC54920084A201 /* SQL对User对象的操作 */ = {
+			isa = PBXGroup;
+			children = (
+				A319485E20AC54920084A201 /* AccessUser.h */,
+				A319485F20AC54920084A201 /* SqlserverUser.h */,
+				A319486020AC54920084A201 /* UserOperation.h */,
+				A319486120AC54920084A201 /* AccessUser.m */,
+				A319486220AC54920084A201 /* SqlserverUser.m */,
+			);
+			path = "SQL对User对象的操作";
+			sourceTree = "<group>";
+		};
 		A389CCEE20A1A32A004F1A59 = {
 			isa = PBXGroup;
 			children = (
@@ -331,6 +416,7 @@
 				A389CD6720A1B4C6004F1A59 /* 8.外观模式 */,
 				A319482020AC542F0084A201 /* 9.建造者模式 */,
 				A319483D20AC545A0084A201 /* 10.观察者模式 */,
+				A319484B20AC54920084A201 /* 11.抽象工厂模式 */,
 				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
 				A319480920AC162D0084A201 /* 15.组合模式 */,
 				A319481320AC4BAC0084A201 /* 16.迭代器模式 */,
@@ -573,9 +659,14 @@
 				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
 				A319483820AC542F0084A201 /* GamePersonArm.m in Sources */,
 				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
+				A319486520AC54920084A201 /* AccessFactory.m in Sources */,
 				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
+				A319486320AC54920084A201 /* SQLDepartment.m in Sources */,
+				A319486620AC54920084A201 /* SqlserverFactory.m in Sources */,
+				A319486920AC54920084A201 /* AccessUser.m in Sources */,
 				A389CD6A20A1B565004F1A59 /* SubSystemOne.m in Sources */,
 				A389CD4F20A1A3C8004F1A59 /* Skills.m in Sources */,
+				A319486720AC54920084A201 /* AccessDepartment.m in Sources */,
 				A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */,
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
 				A319484820AC545A0084A201 /* StockObserver.m in Sources */,
@@ -586,6 +677,7 @@
 				A319480F20AC1B3A0084A201 /* HRDepartment.m in Sources */,
 				A319483A20AC542F0084A201 /* GamePersonHead.m in Sources */,
 				A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */,
+				A319486420AC54920084A201 /* SQLUser.m in Sources */,
 				A319483520AC542F0084A201 /* PersonBuilderDirector.m in Sources */,
 				A319483620AC542F0084A201 /* GamePersonLeg.m in Sources */,
 				A313A77420AA8A3B00B3B769 /* Memento.m in Sources */,
@@ -618,10 +710,12 @@
 				A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */,
 				A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */,
 				A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */,
+				A319486A20AC54920084A201 /* SqlserverUser.m in Sources */,
 				A389CCFB20A1A32A004F1A59 /* main.m in Sources */,
 				A389CD4C20A1A3C8004F1A59 /* CashContextFactory.m in Sources */,
 				A389CD6620A1A3C8004F1A59 /* ExampleManager.m in Sources */,
 				A389CD4E20A1A3C8004F1A59 /* Skill_W.m in Sources */,
+				A319486820AC54920084A201 /* SqlserverDepartment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
