@@ -59,6 +59,8 @@
 #import "HRDepartment.h"
 #import "FinanceDepartment.h"
 
+#import "ConcreteIterator.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -273,6 +275,22 @@
     
     NSLog(@"总公司职责：");
     [root lineOfDuty];
+}
+
+//迭代器模式
++ (void)iteratorPattern{
+    //oc中的forin就是完美的使用迭代器模式来封装，forin内部具体实现可能是下面的流程：
+    
+    //聚集对象
+    NSArray *array = @[@"大鸟",@"小菜",@"行李",@"老外",@"小偷"];
+    
+    //1.创建迭代器
+    Iterator *i = [[ConcreteIterator alloc] initWithArray:array];
+    //2.遍历迭代器
+    while (![i isDone]) {
+        NSLog(@"%@ 请买车票",[i currentItem]);
+        [i next];
+    }
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

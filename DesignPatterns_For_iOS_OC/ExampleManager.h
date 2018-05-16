@@ -40,6 +40,8 @@
 + (void)mementoPattern;
 //组合模式
 + (void)compositPattern;
+//迭代器模式
++ (void)iteratorPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

@@ -17,6 +17,8 @@
 		A319480C20AC16A20084A201 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = A319480B20AC16A20084A201 /* Company.m */; };
 		A319480F20AC1B3A0084A201 /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319480E20AC1B3A0084A201 /* HRDepartment.m */; };
 		A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481120AC1B500084A201 /* FinanceDepartment.m */; };
+		A319481620AC4C5C0084A201 /* Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481520AC4C5C0084A201 /* Iterator.m */; };
+		A319481C20AC4C8C0084A201 /* ConcreteIterator.m in Sources */ = {isa = PBXBuildFile; fileRef = A319481B20AC4C8C0084A201 /* ConcreteIterator.m */; };
 		A346FC3D20A96E820009A462 /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC3C20A96E820009A462 /* Work.m */; };
 		A346FC4020A977220009A462 /* ForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC3F20A977220009A462 /* ForenoonState.m */; };
 		A346FC4320A977310009A462 /* NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A346FC4220A977310009A462 /* NoonState.m */; };
@@ -115,6 +117,10 @@
 		A319480E20AC1B3A0084A201 /* HRDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
 		A319481020AC1B500084A201 /* FinanceDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinanceDepartment.h; sourceTree = "<group>"; };
 		A319481120AC1B500084A201 /* FinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinanceDepartment.m; sourceTree = "<group>"; };
+		A319481420AC4C5C0084A201 /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		A319481520AC4C5C0084A201 /* Iterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iterator.m; sourceTree = "<group>"; };
+		A319481A20AC4C8C0084A201 /* ConcreteIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteIterator.h; sourceTree = "<group>"; };
+		A319481B20AC4C8C0084A201 /* ConcreteIterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteIterator.m; sourceTree = "<group>"; };
 		A346FC3A20A96D280009A462 /* WorkState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkState.h; sourceTree = "<group>"; };
 		A346FC3B20A96E820009A462 /* Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
 		A346FC3C20A96E820009A462 /* Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
@@ -302,6 +308,17 @@
 			path = "15.组合模式";
 			sourceTree = "<group>";
 		};
+		A319481320AC4BAC0084A201 /* 16.迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A319481420AC4C5C0084A201 /* Iterator.h */,
+				A319481520AC4C5C0084A201 /* Iterator.m */,
+				A319481A20AC4C8C0084A201 /* ConcreteIterator.h */,
+				A319481B20AC4C8C0084A201 /* ConcreteIterator.m */,
+			);
+			path = "16.迭代器模式";
+			sourceTree = "<group>";
+		};
 		A346FC3620A96BB40009A462 /* 12.状态模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -434,6 +451,7 @@
 				A346FC5020A9A51D0009A462 /* 13.适配器模式 */,
 				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
 				A319480920AC162D0084A201 /* 15.组合模式 */,
+				A319481320AC4BAC0084A201 /* 16.迭代器模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -736,6 +754,7 @@
 				A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */,
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
+				A319481620AC4C5C0084A201 /* Iterator.m in Sources */,
 				A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */,
 				A319480F20AC1B3A0084A201 /* HRDepartment.m in Sources */,
 				A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */,
@@ -745,6 +764,7 @@
 				A360763420A57E7000B36E69 /* AccessFactory.m in Sources */,
 				A389CD5620A1A3C8004F1A59 /* Person.m in Sources */,
 				A389CD4D20A1A3C8004F1A59 /* CashStrategyReturn.m in Sources */,
+				A319481C20AC4C8C0084A201 /* ConcreteIterator.m in Sources */,
 				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
 				A389CD5E20A1A3C8004F1A59 /* CalculatorAlgorithm.m in Sources */,
 				A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */,
