@@ -35,6 +35,13 @@
 		A319486820AC54920084A201 /* SqlserverDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A319485B20AC54920084A201 /* SqlserverDepartment.m */; };
 		A319486920AC54920084A201 /* AccessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A319486120AC54920084A201 /* AccessUser.m */; };
 		A319486A20AC54920084A201 /* SqlserverUser.m in Sources */ = {isa = PBXBuildFile; fileRef = A319486220AC54920084A201 /* SqlserverUser.m */; };
+		A319487B20AC54AF0084A201 /* SleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = A319486C20AC54AE0084A201 /* SleepingState.m */; };
+		A319487C20AC54AF0084A201 /* NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A319486E20AC54AE0084A201 /* NoonState.m */; };
+		A319487D20AC54AF0084A201 /* AfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A319487020AC54AE0084A201 /* AfternoonState.m */; };
+		A319487E20AC54AF0084A201 /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = A319487520AC54AE0084A201 /* Work.m */; };
+		A319487F20AC54AF0084A201 /* ForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = A319487620AC54AE0084A201 /* ForenoonState.m */; };
+		A319488020AC54AF0084A201 /* RestState.m in Sources */ = {isa = PBXBuildFile; fileRef = A319487720AC54AE0084A201 /* RestState.m */; };
+		A319488120AC54AF0084A201 /* EveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = A319487820AC54AE0084A201 /* EveningState.m */; };
 		A389CCFB20A1A32A004F1A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CCFA20A1A32A004F1A59 /* main.m */; };
 		A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */; };
 		A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */; };
@@ -145,6 +152,21 @@
 		A319486020AC54920084A201 /* UserOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserOperation.h; sourceTree = "<group>"; };
 		A319486120AC54920084A201 /* AccessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessUser.m; sourceTree = "<group>"; };
 		A319486220AC54920084A201 /* SqlserverUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqlserverUser.m; sourceTree = "<group>"; };
+		A319486C20AC54AE0084A201 /* SleepingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepingState.m; sourceTree = "<group>"; };
+		A319486D20AC54AE0084A201 /* Work.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
+		A319486E20AC54AE0084A201 /* NoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoonState.m; sourceTree = "<group>"; };
+		A319486F20AC54AE0084A201 /* WorkState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkState.h; sourceTree = "<group>"; };
+		A319487020AC54AE0084A201 /* AfternoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfternoonState.m; sourceTree = "<group>"; };
+		A319487120AC54AE0084A201 /* EveningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EveningState.h; sourceTree = "<group>"; };
+		A319487220AC54AE0084A201 /* ForenoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForenoonState.h; sourceTree = "<group>"; };
+		A319487320AC54AE0084A201 /* RestState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestState.h; sourceTree = "<group>"; };
+		A319487420AC54AE0084A201 /* SleepingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepingState.h; sourceTree = "<group>"; };
+		A319487520AC54AE0084A201 /* Work.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
+		A319487620AC54AE0084A201 /* ForenoonState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForenoonState.m; sourceTree = "<group>"; };
+		A319487720AC54AE0084A201 /* RestState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestState.m; sourceTree = "<group>"; };
+		A319487820AC54AE0084A201 /* EveningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EveningState.m; sourceTree = "<group>"; };
+		A319487920AC54AE0084A201 /* AfternoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfternoonState.h; sourceTree = "<group>"; };
+		A319487A20AC54AE0084A201 /* NoonState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoonState.h; sourceTree = "<group>"; };
 		A389CCF720A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns_For_iOS_OC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A389CCFA20A1A32A004F1A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyNormal.m; sourceTree = "<group>"; };
@@ -387,6 +409,28 @@
 			path = "SQL对User对象的操作";
 			sourceTree = "<group>";
 		};
+		A319486B20AC54AE0084A201 /* 12.状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A319486C20AC54AE0084A201 /* SleepingState.m */,
+				A319486D20AC54AE0084A201 /* Work.h */,
+				A319486E20AC54AE0084A201 /* NoonState.m */,
+				A319486F20AC54AE0084A201 /* WorkState.h */,
+				A319487020AC54AE0084A201 /* AfternoonState.m */,
+				A319487120AC54AE0084A201 /* EveningState.h */,
+				A319487220AC54AE0084A201 /* ForenoonState.h */,
+				A319487320AC54AE0084A201 /* RestState.h */,
+				A319487420AC54AE0084A201 /* SleepingState.h */,
+				A319487520AC54AE0084A201 /* Work.m */,
+				A319487620AC54AE0084A201 /* ForenoonState.m */,
+				A319487720AC54AE0084A201 /* RestState.m */,
+				A319487820AC54AE0084A201 /* EveningState.m */,
+				A319487920AC54AE0084A201 /* AfternoonState.h */,
+				A319487A20AC54AE0084A201 /* NoonState.h */,
+			);
+			path = "12.状态模式";
+			sourceTree = "<group>";
+		};
 		A389CCEE20A1A32A004F1A59 = {
 			isa = PBXGroup;
 			children = (
@@ -417,6 +461,7 @@
 				A319482020AC542F0084A201 /* 9.建造者模式 */,
 				A319483D20AC545A0084A201 /* 10.观察者模式 */,
 				A319484B20AC54920084A201 /* 11.抽象工厂模式 */,
+				A319486B20AC54AE0084A201 /* 12.状态模式 */,
 				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
 				A319480920AC162D0084A201 /* 15.组合模式 */,
 				A319481320AC4BAC0084A201 /* 16.迭代器模式 */,
@@ -655,6 +700,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */,
+				A319487C20AC54AF0084A201 /* NoonState.m in Sources */,
 				A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */,
 				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
 				A319483820AC542F0084A201 /* GamePersonArm.m in Sources */,
@@ -663,16 +709,19 @@
 				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
 				A319486320AC54920084A201 /* SQLDepartment.m in Sources */,
 				A319486620AC54920084A201 /* SqlserverFactory.m in Sources */,
+				A319487D20AC54AF0084A201 /* AfternoonState.m in Sources */,
 				A319486920AC54920084A201 /* AccessUser.m in Sources */,
 				A389CD6A20A1B565004F1A59 /* SubSystemOne.m in Sources */,
 				A389CD4F20A1A3C8004F1A59 /* Skills.m in Sources */,
 				A319486720AC54920084A201 /* AccessDepartment.m in Sources */,
 				A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */,
+				A319487B20AC54AF0084A201 /* SleepingState.m in Sources */,
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
 				A319484820AC545A0084A201 /* StockObserver.m in Sources */,
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
 				A319483C20AC542F0084A201 /* ThinPersonBuilder.m in Sources */,
 				A319481620AC4C5C0084A201 /* Iterator.m in Sources */,
+				A319487E20AC54AF0084A201 /* Work.m in Sources */,
 				A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */,
 				A319480F20AC1B3A0084A201 /* HRDepartment.m in Sources */,
 				A319483A20AC542F0084A201 /* GamePersonHead.m in Sources */,
@@ -691,6 +740,7 @@
 				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
 				A389CD5E20A1A3C8004F1A59 /* CalculatorAlgorithm.m in Sources */,
 				A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */,
+				A319488020AC54AF0084A201 /* RestState.m in Sources */,
 				A313A77720AA90BD00B3B769 /* MementoManager.m in Sources */,
 				A389CD5220A1A3C8004F1A59 /* AnQiLa.m in Sources */,
 				A389CD6420A1A3C8004F1A59 /* CalculateDivFactory.m in Sources */,
@@ -704,6 +754,7 @@
 				A389CD5920A1A3C8004F1A59 /* TestPaper.m in Sources */,
 				A389CD6220A1A3C8004F1A59 /* CalculateFactory.m in Sources */,
 				A319483920AC542F0084A201 /* GamePersonBody.m in Sources */,
+				A319488120AC54AF0084A201 /* EveningState.m in Sources */,
 				A313A77120AA89CC00B3B769 /* Originator.m in Sources */,
 				A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */,
 				A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */,
@@ -716,6 +767,7 @@
 				A389CD6620A1A3C8004F1A59 /* ExampleManager.m in Sources */,
 				A389CD4E20A1A3C8004F1A59 /* Skill_W.m in Sources */,
 				A319486820AC54920084A201 /* SqlserverDepartment.m in Sources */,
+				A319487F20AC54AF0084A201 /* ForenoonState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
