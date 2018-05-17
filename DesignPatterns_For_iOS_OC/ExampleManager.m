@@ -68,6 +68,11 @@
 #import "HandsetGame.h"
 #import "HandsetAddressList.h"
 
+#import "BakeMuttonCommand.h"
+#import "BakeChickenWingCommand.h"
+#import "Waiter.h"
+#import "Barbecuer.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -328,6 +333,24 @@
     [nbrand runSoft];
     [nbrand setHandsetSoft:[HandsetAddressList new]];
     [nbrand runSoft];
+}
+
+//命令模式
++ (void)commandPattern{
+    //开店装备
+    Barbecuer *boy = [[Barbecuer alloc] init];
+    Waiter *girl = [Waiter new];
+    
+    //开门营业 顾客点菜
+    Command *bakeMuttonCommand = [[BakeMuttonCommand alloc] initWithBarbecuer:boy];
+    [girl setOrder:bakeMuttonCommand];
+    Command *bakeMuttonCommand1 = [[BakeMuttonCommand alloc] initWithBarbecuer:boy];
+    [girl setOrder:bakeMuttonCommand1];
+    Command *bakeChickenWingCommand = [[BakeChickenWingCommand alloc] initWithBarbecuer:boy];
+    [girl setOrder:bakeChickenWingCommand];
+    
+    //点菜完毕，通知厨房
+    [girl notifyExcuteAllCommand];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

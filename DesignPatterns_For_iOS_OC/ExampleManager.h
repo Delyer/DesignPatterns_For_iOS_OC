@@ -46,6 +46,8 @@
 + (void)singletonPattern;
 //桥接模式
 + (void)bridgePattern;
+//命令模式
++ (void)commandPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

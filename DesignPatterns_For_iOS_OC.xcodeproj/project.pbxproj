@@ -13,6 +13,11 @@
 		A303D54420AD5B2600DBE65C /* HandsetAddressList.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D54320AD5B2600DBE65C /* HandsetAddressList.m */; };
 		A303D54720AD5C9D00DBE65C /* HandsetMBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D54620AD5C9D00DBE65C /* HandsetMBrand.m */; };
 		A303D54A20AD5CA800DBE65C /* HandsetNBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D54920AD5CA800DBE65C /* HandsetNBrand.m */; };
+		A303D54E20AD6D0800DBE65C /* Barbecuer.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D54D20AD6D0800DBE65C /* Barbecuer.m */; };
+		A303D55120AD6DC400DBE65C /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D55020AD6DC400DBE65C /* Command.m */; };
+		A303D55420AD6EDC00DBE65C /* BakeMuttonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D55320AD6EDC00DBE65C /* BakeMuttonCommand.m */; };
+		A303D55720AD6F2800DBE65C /* BakeChickenWingCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D55620AD6F2800DBE65C /* BakeChickenWingCommand.m */; };
+		A303D55A20AD6F7C00DBE65C /* Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D55920AD6F7C00DBE65C /* Waiter.m */; };
 		A313A77120AA89CC00B3B769 /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77020AA89CC00B3B769 /* Originator.m */; };
 		A313A77420AA8A3B00B3B769 /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77320AA8A3B00B3B769 /* Memento.m */; };
 		A313A77720AA90BD00B3B769 /* MementoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77620AA90BD00B3B769 /* MementoManager.m */; };
@@ -115,6 +120,16 @@
 		A303D54620AD5C9D00DBE65C /* HandsetMBrand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandsetMBrand.m; sourceTree = "<group>"; };
 		A303D54820AD5CA800DBE65C /* HandsetNBrand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandsetNBrand.h; sourceTree = "<group>"; };
 		A303D54920AD5CA800DBE65C /* HandsetNBrand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandsetNBrand.m; sourceTree = "<group>"; };
+		A303D54C20AD6D0800DBE65C /* Barbecuer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Barbecuer.h; sourceTree = "<group>"; };
+		A303D54D20AD6D0800DBE65C /* Barbecuer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Barbecuer.m; sourceTree = "<group>"; };
+		A303D54F20AD6DC400DBE65C /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		A303D55020AD6DC400DBE65C /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		A303D55220AD6EDC00DBE65C /* BakeMuttonCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BakeMuttonCommand.h; sourceTree = "<group>"; };
+		A303D55320AD6EDC00DBE65C /* BakeMuttonCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BakeMuttonCommand.m; sourceTree = "<group>"; };
+		A303D55520AD6F2800DBE65C /* BakeChickenWingCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BakeChickenWingCommand.h; sourceTree = "<group>"; };
+		A303D55620AD6F2800DBE65C /* BakeChickenWingCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BakeChickenWingCommand.m; sourceTree = "<group>"; };
+		A303D55820AD6F7C00DBE65C /* Waiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
+		A303D55920AD6F7C00DBE65C /* Waiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
 		A313A76F20AA89CC00B3B769 /* Originator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Originator.h; sourceTree = "<group>"; };
 		A313A77020AA89CC00B3B769 /* Originator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Originator.m; sourceTree = "<group>"; };
 		A313A77220AA8A3B00B3B769 /* Memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
@@ -304,6 +319,23 @@
 				A303D54920AD5CA800DBE65C /* HandsetNBrand.m */,
 			);
 			path = "18.桥接模式";
+			sourceTree = "<group>";
+		};
+		A303D54B20AD6CDC00DBE65C /* 19.命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A303D54C20AD6D0800DBE65C /* Barbecuer.h */,
+				A303D54D20AD6D0800DBE65C /* Barbecuer.m */,
+				A303D54F20AD6DC400DBE65C /* Command.h */,
+				A303D55020AD6DC400DBE65C /* Command.m */,
+				A303D55220AD6EDC00DBE65C /* BakeMuttonCommand.h */,
+				A303D55320AD6EDC00DBE65C /* BakeMuttonCommand.m */,
+				A303D55520AD6F2800DBE65C /* BakeChickenWingCommand.h */,
+				A303D55620AD6F2800DBE65C /* BakeChickenWingCommand.m */,
+				A303D55820AD6F7C00DBE65C /* Waiter.h */,
+				A303D55920AD6F7C00DBE65C /* Waiter.m */,
+			);
+			path = "19.命令模式";
 			sourceTree = "<group>";
 		};
 		A313A76E20AA893100B3B769 /* 14.备忘录模式 */ = {
@@ -551,6 +583,7 @@
 				A319481320AC4BAC0084A201 /* 16.迭代器模式 */,
 				A319489A20AC5B2A0084A201 /* 17.单例模式 */,
 				A303D53820AD5A4D00DBE65C /* 18.桥接模式 */,
+				A303D54B20AD6CDC00DBE65C /* 19.命令模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -798,6 +831,7 @@
 				A303D54A20AD5CA800DBE65C /* HandsetNBrand.m in Sources */,
 				A319486320AC54920084A201 /* SQLDepartment.m in Sources */,
 				A303D53B20AD5A9500DBE65C /* HandsetSoft.m in Sources */,
+				A303D55720AD6F2800DBE65C /* BakeChickenWingCommand.m in Sources */,
 				A319486620AC54920084A201 /* SqlserverFactory.m in Sources */,
 				A319487D20AC54AF0084A201 /* AfternoonState.m in Sources */,
 				A319486920AC54920084A201 /* AccessUser.m in Sources */,
@@ -811,9 +845,11 @@
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
 				A303D54120AD5B1100DBE65C /* HandsetGame.m in Sources */,
 				A319483C20AC542F0084A201 /* ThinPersonBuilder.m in Sources */,
+				A303D55120AD6DC400DBE65C /* Command.m in Sources */,
 				A319481620AC4C5C0084A201 /* Iterator.m in Sources */,
 				A319487E20AC54AF0084A201 /* Work.m in Sources */,
 				A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */,
+				A303D54E20AD6D0800DBE65C /* Barbecuer.m in Sources */,
 				A319480F20AC1B3A0084A201 /* HRDepartment.m in Sources */,
 				A319483A20AC542F0084A201 /* GamePersonHead.m in Sources */,
 				A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */,
@@ -830,6 +866,7 @@
 				A319483B20AC542F0084A201 /* FatPersonBuilder.m in Sources */,
 				A319484720AC545A0084A201 /* ConcreteSubject.m in Sources */,
 				A319481C20AC4C8C0084A201 /* ConcreteIterator.m in Sources */,
+				A303D55420AD6EDC00DBE65C /* BakeMuttonCommand.m in Sources */,
 				A319484A20AC545A0084A201 /* NBAObserver.m in Sources */,
 				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
 				A389CD5E20A1A3C8004F1A59 /* CalculatorAlgorithm.m in Sources */,
@@ -856,6 +893,7 @@
 				A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */,
 				A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */,
 				A303D54720AD5C9D00DBE65C /* HandsetMBrand.m in Sources */,
+				A303D55A20AD6F7C00DBE65C /* Waiter.m in Sources */,
 				A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */,
 				A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */,
 				A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */,
