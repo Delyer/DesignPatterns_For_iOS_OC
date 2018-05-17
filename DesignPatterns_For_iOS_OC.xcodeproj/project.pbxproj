@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A303D53B20AD5A9500DBE65C /* HandsetSoft.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D53A20AD5A9500DBE65C /* HandsetSoft.m */; };
+		A303D53E20AD5AB900DBE65C /* HandsetBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D53D20AD5AB900DBE65C /* HandsetBrand.m */; };
+		A303D54120AD5B1100DBE65C /* HandsetGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D54020AD5B1100DBE65C /* HandsetGame.m */; };
+		A303D54420AD5B2600DBE65C /* HandsetAddressList.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D54320AD5B2600DBE65C /* HandsetAddressList.m */; };
+		A303D54720AD5C9D00DBE65C /* HandsetMBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D54620AD5C9D00DBE65C /* HandsetMBrand.m */; };
+		A303D54A20AD5CA800DBE65C /* HandsetNBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = A303D54920AD5CA800DBE65C /* HandsetNBrand.m */; };
 		A313A77120AA89CC00B3B769 /* Originator.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77020AA89CC00B3B769 /* Originator.m */; };
 		A313A77420AA8A3B00B3B769 /* Memento.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77320AA8A3B00B3B769 /* Memento.m */; };
 		A313A77720AA90BD00B3B769 /* MementoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A313A77620AA90BD00B3B769 /* MementoManager.m */; };
@@ -97,6 +103,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A303D53920AD5A9500DBE65C /* HandsetSoft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandsetSoft.h; sourceTree = "<group>"; };
+		A303D53A20AD5A9500DBE65C /* HandsetSoft.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandsetSoft.m; sourceTree = "<group>"; };
+		A303D53C20AD5AB900DBE65C /* HandsetBrand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandsetBrand.h; sourceTree = "<group>"; };
+		A303D53D20AD5AB900DBE65C /* HandsetBrand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandsetBrand.m; sourceTree = "<group>"; };
+		A303D53F20AD5B1100DBE65C /* HandsetGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandsetGame.h; sourceTree = "<group>"; };
+		A303D54020AD5B1100DBE65C /* HandsetGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandsetGame.m; sourceTree = "<group>"; };
+		A303D54220AD5B2600DBE65C /* HandsetAddressList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandsetAddressList.h; sourceTree = "<group>"; };
+		A303D54320AD5B2600DBE65C /* HandsetAddressList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandsetAddressList.m; sourceTree = "<group>"; };
+		A303D54520AD5C9D00DBE65C /* HandsetMBrand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandsetMBrand.h; sourceTree = "<group>"; };
+		A303D54620AD5C9D00DBE65C /* HandsetMBrand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandsetMBrand.m; sourceTree = "<group>"; };
+		A303D54820AD5CA800DBE65C /* HandsetNBrand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HandsetNBrand.h; sourceTree = "<group>"; };
+		A303D54920AD5CA800DBE65C /* HandsetNBrand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandsetNBrand.m; sourceTree = "<group>"; };
 		A313A76F20AA89CC00B3B769 /* Originator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Originator.h; sourceTree = "<group>"; };
 		A313A77020AA89CC00B3B769 /* Originator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Originator.m; sourceTree = "<group>"; };
 		A313A77220AA8A3B00B3B769 /* Memento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
@@ -269,6 +287,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A303D53820AD5A4D00DBE65C /* 18.桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A303D53920AD5A9500DBE65C /* HandsetSoft.h */,
+				A303D53A20AD5A9500DBE65C /* HandsetSoft.m */,
+				A303D53F20AD5B1100DBE65C /* HandsetGame.h */,
+				A303D54020AD5B1100DBE65C /* HandsetGame.m */,
+				A303D54220AD5B2600DBE65C /* HandsetAddressList.h */,
+				A303D54320AD5B2600DBE65C /* HandsetAddressList.m */,
+				A303D53C20AD5AB900DBE65C /* HandsetBrand.h */,
+				A303D53D20AD5AB900DBE65C /* HandsetBrand.m */,
+				A303D54520AD5C9D00DBE65C /* HandsetMBrand.h */,
+				A303D54620AD5C9D00DBE65C /* HandsetMBrand.m */,
+				A303D54820AD5CA800DBE65C /* HandsetNBrand.h */,
+				A303D54920AD5CA800DBE65C /* HandsetNBrand.m */,
+			);
+			path = "18.桥接模式";
+			sourceTree = "<group>";
+		};
 		A313A76E20AA893100B3B769 /* 14.备忘录模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -496,7 +533,6 @@
 		A389CCF920A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {
 			isa = PBXGroup;
 			children = (
-				A319489A20AC5B2A0084A201 /* 17.单例模式 */,
 				A389CD3720A1A3C8004F1A59 /* 1.简单工厂模式 */,
 				A389CD0120A1A3C7004F1A59 /* 2.策略模式 */,
 				A389CD0B20A1A3C7004F1A59 /* 3.装饰器模式 */,
@@ -513,6 +549,8 @@
 				A313A76E20AA893100B3B769 /* 14.备忘录模式 */,
 				A319480920AC162D0084A201 /* 15.组合模式 */,
 				A319481320AC4BAC0084A201 /* 16.迭代器模式 */,
+				A319489A20AC5B2A0084A201 /* 17.单例模式 */,
+				A303D53820AD5A4D00DBE65C /* 18.桥接模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -757,7 +795,9 @@
 				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
 				A319486520AC54920084A201 /* AccessFactory.m in Sources */,
 				A389CD5820A1A3C8004F1A59 /* TestPaperA.m in Sources */,
+				A303D54A20AD5CA800DBE65C /* HandsetNBrand.m in Sources */,
 				A319486320AC54920084A201 /* SQLDepartment.m in Sources */,
+				A303D53B20AD5A9500DBE65C /* HandsetSoft.m in Sources */,
 				A319486620AC54920084A201 /* SqlserverFactory.m in Sources */,
 				A319487D20AC54AF0084A201 /* AfternoonState.m in Sources */,
 				A319486920AC54920084A201 /* AccessUser.m in Sources */,
@@ -769,6 +809,7 @@
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
 				A319484820AC545A0084A201 /* StockObserver.m in Sources */,
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
+				A303D54120AD5B1100DBE65C /* HandsetGame.m in Sources */,
 				A319483C20AC542F0084A201 /* ThinPersonBuilder.m in Sources */,
 				A319481620AC4C5C0084A201 /* Iterator.m in Sources */,
 				A319487E20AC54AF0084A201 /* Work.m in Sources */,
@@ -780,7 +821,9 @@
 				A319483520AC542F0084A201 /* PersonBuilderDirector.m in Sources */,
 				A319483620AC542F0084A201 /* GamePersonLeg.m in Sources */,
 				A313A77420AA8A3B00B3B769 /* Memento.m in Sources */,
+				A303D53E20AD5AB900DBE65C /* HandsetBrand.m in Sources */,
 				A389CD5620A1A3C8004F1A59 /* Person.m in Sources */,
+				A303D54420AD5B2600DBE65C /* HandsetAddressList.m in Sources */,
 				A389CD4D20A1A3C8004F1A59 /* CashStrategyReturn.m in Sources */,
 				A319483720AC542F0084A201 /* GamePerson.m in Sources */,
 				A319489220AC54D40084A201 /* VlcPlayer.m in Sources */,
@@ -812,6 +855,7 @@
 				A313A77120AA89CC00B3B769 /* Originator.m in Sources */,
 				A389CD5120A1A3C8004F1A59 /* Hero.m in Sources */,
 				A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */,
+				A303D54720AD5C9D00DBE65C /* HandsetMBrand.m in Sources */,
 				A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */,
 				A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */,
 				A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */,

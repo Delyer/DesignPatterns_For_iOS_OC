@@ -44,6 +44,8 @@
 + (void)iteratorPattern;
 //单例模式
 + (void)singletonPattern;
+//桥接模式
++ (void)bridgePattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

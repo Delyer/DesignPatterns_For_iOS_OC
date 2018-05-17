@@ -63,6 +63,11 @@
 
 #import "HeroManager.h"
 
+#import "HandsetMBrand.h"
+#import "HandsetNBrand.h"
+#import "HandsetGame.h"
+#import "HandsetAddressList.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -306,6 +311,23 @@
     
     HeroManager *manager1 = [HeroManager sharedInstance];
     NSLog(@"manager = %p; manager1 = %p 两个指针指向的对象地址相同(同一个对象，有且只有一个)",manager,manager1);
+}
+
+//桥接模式
++ (void)bridgePattern{
+    //手机软件和手机品牌是部分和整体关系(合成/聚合)，不是继承关系
+    
+    HandsetMBrand *mbrand = [[HandsetMBrand alloc] init];
+    [mbrand setHandsetSoft:[HandsetGame new]];
+    [mbrand runSoft];
+    [mbrand setHandsetSoft:[HandsetAddressList new]];
+    [mbrand runSoft];
+    
+    HandsetNBrand *nbrand = [[HandsetNBrand alloc] init];
+    [nbrand setHandsetSoft:[HandsetGame new]];
+    [nbrand runSoft];
+    [nbrand setHandsetSoft:[HandsetAddressList new]];
+    [nbrand runSoft];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{
