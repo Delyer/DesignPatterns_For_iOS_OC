@@ -73,6 +73,10 @@
 #import "Waiter.h"
 #import "Barbecuer.h"
 
+#import "CommonManager.h"
+#import "MajordomoManager.h"
+#import "GeneralManager.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -351,6 +355,37 @@
     
     //点菜完毕，通知厨房
     [girl notifyExcuteAllCommand];
+}
+
+//职责链模式
++ (void)chainOfResponsibiltityPattern{
+    //设置职责链
+    CommonManager *jingli = [[CommonManager alloc] initWithName:@"经理"];
+    MajordomoManager *zhongjian = [[MajordomoManager alloc] initWithName:@"总监"];
+    GeneralManager *zongjingli = [[GeneralManager alloc] initWithName:@"总经理"];
+    [jingli setSuperior:zhongjian];
+    [zhongjian setSuperior:zongjingli];
+    
+    //请求
+    Request *request = [Request new];
+    request.requestType = @"请假";
+    request.requestContent = @"xiaomu请假";
+    request.number = 5;
+    
+    //处理请求
+    [jingli requestApplictions:request];
+    
+    Request *request1 = [Request new];
+    request1.requestType = @"加薪";
+    request1.requestContent = @"xiaomu请求加薪";
+    request1.number = 500;
+    [jingli requestApplictions:request1];
+    
+    Request *request2 = [Request new];
+    request2.requestType = @"加薪";
+    request2.requestContent = @"xiaomu请求加薪";
+    request2.number = 5000;
+    [jingli requestApplictions:request2];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

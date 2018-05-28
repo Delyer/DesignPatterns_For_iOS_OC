@@ -48,6 +48,8 @@
 + (void)bridgePattern;
 //命令模式
 + (void)commandPattern;
+//职责链模式
++ (void)chainOfResponsibiltityPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

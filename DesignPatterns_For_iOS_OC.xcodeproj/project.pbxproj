@@ -93,6 +93,11 @@
 		A389CD6D20A1B573004F1A59 /* SubSystemTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD6C20A1B573004F1A59 /* SubSystemTwo.m */; };
 		A389CD7020A1B580004F1A59 /* SubSystemThree.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD6F20A1B580004F1A59 /* SubSystemThree.m */; };
 		A389CD7320A1B590004F1A59 /* Facade.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD7220A1B590004F1A59 /* Facade.m */; };
+		A3BB382C20BBFCC400580C4B /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB382B20BBFCC400580C4B /* Manager.m */; };
+		A3BB382F20BBFD4300580C4B /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB382E20BBFD4300580C4B /* Request.m */; };
+		A3BB383220BBFF1B00580C4B /* CommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB383120BBFF1B00580C4B /* CommonManager.m */; };
+		A3BB383520BC00A000580C4B /* MajordomoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB383420BC00A000580C4B /* MajordomoManager.m */; };
+		A3BB383820BC00DC00580C4B /* GeneralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB383720BC00DC00580C4B /* GeneralManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -289,6 +294,16 @@
 		A389CD6F20A1B580004F1A59 /* SubSystemThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubSystemThree.m; sourceTree = "<group>"; };
 		A389CD7120A1B590004F1A59 /* Facade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Facade.h; sourceTree = "<group>"; };
 		A389CD7220A1B590004F1A59 /* Facade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Facade.m; sourceTree = "<group>"; };
+		A3BB382A20BBFCC400580C4B /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		A3BB382B20BBFCC400580C4B /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		A3BB382D20BBFD4300580C4B /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		A3BB382E20BBFD4300580C4B /* Request.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		A3BB383020BBFF1B00580C4B /* CommonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonManager.h; sourceTree = "<group>"; };
+		A3BB383120BBFF1B00580C4B /* CommonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonManager.m; sourceTree = "<group>"; };
+		A3BB383320BC00A000580C4B /* MajordomoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MajordomoManager.h; sourceTree = "<group>"; };
+		A3BB383420BC00A000580C4B /* MajordomoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MajordomoManager.m; sourceTree = "<group>"; };
+		A3BB383620BC00DC00580C4B /* GeneralManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralManager.h; sourceTree = "<group>"; };
+		A3BB383720BC00DC00580C4B /* GeneralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -584,6 +599,7 @@
 				A319489A20AC5B2A0084A201 /* 17.单例模式 */,
 				A303D53820AD5A4D00DBE65C /* 18.桥接模式 */,
 				A303D54B20AD6CDC00DBE65C /* 19.命令模式 */,
+				A3BB382920BBFCA700580C4B /* 20.职责链模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -761,6 +777,23 @@
 			path = "8.外观模式";
 			sourceTree = "<group>";
 		};
+		A3BB382920BBFCA700580C4B /* 20.职责链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A3BB382A20BBFCC400580C4B /* Manager.h */,
+				A3BB382B20BBFCC400580C4B /* Manager.m */,
+				A3BB382D20BBFD4300580C4B /* Request.h */,
+				A3BB382E20BBFD4300580C4B /* Request.m */,
+				A3BB383020BBFF1B00580C4B /* CommonManager.h */,
+				A3BB383120BBFF1B00580C4B /* CommonManager.m */,
+				A3BB383320BC00A000580C4B /* MajordomoManager.h */,
+				A3BB383420BC00A000580C4B /* MajordomoManager.m */,
+				A3BB383620BC00DC00580C4B /* GeneralManager.h */,
+				A3BB383720BC00DC00580C4B /* GeneralManager.m */,
+			);
+			path = "20.职责链模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -841,6 +874,7 @@
 				A389CD5420A1A3C8004F1A59 /* TShirts.m in Sources */,
 				A319487B20AC54AF0084A201 /* SleepingState.m in Sources */,
 				A389CD5C20A1A3C8004F1A59 /* Pursuit.m in Sources */,
+				A3BB383220BBFF1B00580C4B /* CommonManager.m in Sources */,
 				A319484820AC545A0084A201 /* StockObserver.m in Sources */,
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
 				A303D54120AD5B1100DBE65C /* HandsetGame.m in Sources */,
@@ -855,6 +889,8 @@
 				A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */,
 				A319486420AC54920084A201 /* SQLUser.m in Sources */,
 				A319483520AC542F0084A201 /* PersonBuilderDirector.m in Sources */,
+				A3BB383520BC00A000580C4B /* MajordomoManager.m in Sources */,
+				A3BB382C20BBFCC400580C4B /* Manager.m in Sources */,
 				A319483620AC542F0084A201 /* GamePersonLeg.m in Sources */,
 				A313A77420AA8A3B00B3B769 /* Memento.m in Sources */,
 				A303D53E20AD5AB900DBE65C /* HandsetBrand.m in Sources */,
@@ -894,6 +930,8 @@
 				A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */,
 				A303D54720AD5C9D00DBE65C /* HandsetMBrand.m in Sources */,
 				A303D55A20AD6F7C00DBE65C /* Waiter.m in Sources */,
+				A3BB382F20BBFD4300580C4B /* Request.m in Sources */,
+				A3BB383820BC00DC00580C4B /* GeneralManager.m in Sources */,
 				A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */,
 				A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */,
 				A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */,
