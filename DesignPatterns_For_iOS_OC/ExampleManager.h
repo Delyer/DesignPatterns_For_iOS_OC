@@ -50,6 +50,8 @@
 + (void)commandPattern;
 //职责链模式
 + (void)chainOfResponsibiltityPattern;
+//中介者模式
++ (void)mediatorPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

@@ -31,6 +31,7 @@ int main(int argc, const char * argv[]) {
         [ExampleManager executeMethod:@selector(bridgePattern) desc:@"桥接模式"];
         [ExampleManager executeMethod:@selector(commandPattern) desc:@"命令模式"];
         [ExampleManager executeMethod:@selector(chainOfResponsibiltityPattern) desc:@"职责链模式"];
+        [ExampleManager executeMethod:@selector(mediatorPattern) desc:@"中介者模式"];
     }
     return 0;
 }

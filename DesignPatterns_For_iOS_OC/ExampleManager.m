@@ -77,6 +77,10 @@
 #import "MajordomoManager.h"
 #import "GeneralManager.h"
 
+#import "ConcreteMediator.h"
+#import "ConcreteColleague1.h"
+#import "ConcreteColleague2.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -386,6 +390,21 @@
     request2.requestContent = @"xiaomu请求加薪";
     request2.number = 5000;
     [jingli requestApplictions:request2];
+}
+
+//中介者模式
++ (void)mediatorPattern{
+    //初始化一个中介者对象
+    ConcreteMediator *mediator = [[ConcreteMediator alloc]init];
+    //初始化并且让两个同事有相同的中介者对象
+    ConcreteColleague1 *c1 = [[ConcreteColleague1 alloc] initWithMediator:mediator];
+    ConcreteColleague2 *c2 = [[ConcreteColleague2 alloc] initWithMediator:mediator];
+    //给中介者对象绑定两个要交互的同事对象
+    mediator.colleague1 = c1;
+    mediator.colleague2 = c2;
+    
+    [c1 send:@"吃过饭了吗？"];
+    [c2 send:@"没有呢，你打算请客？"];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{
