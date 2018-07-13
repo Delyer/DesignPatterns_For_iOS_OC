@@ -52,6 +52,8 @@
 + (void)chainOfResponsibiltityPattern;
 //中介者模式
 + (void)mediatorPattern;
+//享元模式
++ (void)flyweightPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

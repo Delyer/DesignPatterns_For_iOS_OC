@@ -81,6 +81,10 @@
 #import "ConcreteColleague1.h"
 #import "ConcreteColleague2.h"
 
+#import "WebSiteFactory.h"
+#import "FlyweightUser.h"
+#import "ConcreteWebSite.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -405,6 +409,29 @@
     
     [c1 send:@"吃过饭了吗？"];
     [c2 send:@"没有呢，你打算请客？"];
+}
+
+//享元模式
++ (void)flyweightPattern{
+    WebSiteFactory *factory = [[WebSiteFactory alloc] init];
+    
+    WebSite *fx = [factory getWebSiteCategory:@"产品展示"];
+    FlyweightUser *fxUser = [FlyweightUser new];
+    fxUser.name = @"木木";
+    [fx use:fxUser];
+    
+    
+    WebSite *fy = [factory getWebSiteCategory:@"产品展示"];
+    FlyweightUser *fyUser = [FlyweightUser new];
+    fyUser.name = @"西西";
+    [fy use:fyUser];
+    
+    WebSite *fz = [factory getWebSiteCategory:@"博客"];
+    FlyweightUser *fzUser = [FlyweightUser new];
+    fzUser.name = @"Thanks♪(･ω･)ﾉ";
+    [fz use:fzUser];
+    
+    NSLog(@"网站分类总数为：%ld",[factory getWebSiteCount]);
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{
