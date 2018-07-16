@@ -85,6 +85,10 @@
 #import "FlyweightUser.h"
 #import "ConcreteWebSite.h"
 
+#import "PlayerContext.h"
+#import "Note.h"
+#import "Scale.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -432,6 +436,22 @@
     [fz use:fzUser];
     
     NSLog(@"网站分类总数为：%ld",[factory getWebSiteCount]);
+}
+
+//解释器模式
++ (void)interpreterPattern{
+    PlayerContext *context = [PlayerContext new];
+    context.playTextArray = [@[@"O",@"2",@"E",@"1",@"G",@"1",@"A",@"3", @"B",@"4",@"F",@"1",@"O", @"1",@"G",@"1"] mutableCopy];
+    while (context.playTextArray.count > 0) {
+        NSString *str = [context.playTextArray firstObject];
+        Expression *expression;
+        if ([str isEqualToString:@"O"]) {
+            expression  = [Scale new];
+        }else{
+            expression = [Note new];
+        }
+        [expression interpret:context];
+    }
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

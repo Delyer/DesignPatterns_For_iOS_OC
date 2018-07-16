@@ -68,6 +68,10 @@
 		A3499FDB20F5DCEB00E5DD40 /* ConcreteMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = A3499FDA20F5DCEB00E5DD40 /* ConcreteMediator.m */; };
 		A3499FE120F5DE3900E5DD40 /* ConcreteColleague1.m in Sources */ = {isa = PBXBuildFile; fileRef = A3499FE020F5DE3900E5DD40 /* ConcreteColleague1.m */; };
 		A3499FE420F5E33300E5DD40 /* ConcreteColleague2.m in Sources */ = {isa = PBXBuildFile; fileRef = A3499FE320F5E33300E5DD40 /* ConcreteColleague2.m */; };
+		A34A770D20FC874D006AF8A6 /* PlayerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A34A770C20FC874D006AF8A6 /* PlayerContext.m */; };
+		A34A771020FC87C4006AF8A6 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = A34A770F20FC87C4006AF8A6 /* Expression.m */; };
+		A34A771320FC8D60006AF8A6 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = A34A771220FC8D60006AF8A6 /* Note.m */; };
+		A34A771920FC8EF4006AF8A6 /* Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = A34A771820FC8EF4006AF8A6 /* Scale.m */; };
 		A389CCFB20A1A32A004F1A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CCFA20A1A32A004F1A59 /* main.m */; };
 		A389CD4A20A1A3C8004F1A59 /* CashStrategyNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */; };
 		A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = A389CD0320A1A3C7004F1A59 /* CashStrategyRebate.m */; };
@@ -251,6 +255,14 @@
 		A3499FE020F5DE3900E5DD40 /* ConcreteColleague1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteColleague1.m; sourceTree = "<group>"; };
 		A3499FE220F5E33300E5DD40 /* ConcreteColleague2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcreteColleague2.h; sourceTree = "<group>"; };
 		A3499FE320F5E33300E5DD40 /* ConcreteColleague2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConcreteColleague2.m; sourceTree = "<group>"; };
+		A34A770B20FC874D006AF8A6 /* PlayerContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerContext.h; sourceTree = "<group>"; };
+		A34A770C20FC874D006AF8A6 /* PlayerContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerContext.m; sourceTree = "<group>"; };
+		A34A770E20FC87C4006AF8A6 /* Expression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		A34A770F20FC87C4006AF8A6 /* Expression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
+		A34A771120FC8D60006AF8A6 /* Note.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		A34A771220FC8D60006AF8A6 /* Note.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		A34A771720FC8EF4006AF8A6 /* Scale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scale.h; sourceTree = "<group>"; };
+		A34A771820FC8EF4006AF8A6 /* Scale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scale.m; sourceTree = "<group>"; };
 		A389CCF720A1A32A004F1A59 /* DesignPatterns_For_iOS_OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns_For_iOS_OC; sourceTree = BUILT_PRODUCTS_DIR; };
 		A389CCFA20A1A32A004F1A59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A389CD0220A1A3C7004F1A59 /* CashStrategyNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashStrategyNormal.m; sourceTree = "<group>"; };
@@ -652,6 +664,21 @@
 			path = Mediator;
 			sourceTree = "<group>";
 		};
+		A34A770720FC7FC8006AF8A6 /* 23.解释器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A34A770B20FC874D006AF8A6 /* PlayerContext.h */,
+				A34A770C20FC874D006AF8A6 /* PlayerContext.m */,
+				A34A770E20FC87C4006AF8A6 /* Expression.h */,
+				A34A770F20FC87C4006AF8A6 /* Expression.m */,
+				A34A771120FC8D60006AF8A6 /* Note.h */,
+				A34A771220FC8D60006AF8A6 /* Note.m */,
+				A34A771720FC8EF4006AF8A6 /* Scale.h */,
+				A34A771820FC8EF4006AF8A6 /* Scale.m */,
+			);
+			path = "23.解释器模式";
+			sourceTree = "<group>";
+		};
 		A389CCEE20A1A32A004F1A59 = {
 			isa = PBXGroup;
 			children = (
@@ -693,6 +720,7 @@
 				A3BB382920BBFCA700580C4B /* 20.职责链模式 */,
 				A3499FCD20F5DA9300E5DD40 /* 21.中介者模式 */,
 				A3299CB320F852BF0012CCE3 /* 22.享元模式 */,
+				A34A770720FC7FC8006AF8A6 /* 23.解释器模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -946,6 +974,7 @@
 			files = (
 				A3499FD820F5DBB200E5DD40 /* Colleague.m in Sources */,
 				A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */,
+				A34A771920FC8EF4006AF8A6 /* Scale.m in Sources */,
 				A319487C20AC54AF0084A201 /* NoonState.m in Sources */,
 				A319489020AC54D40084A201 /* MediaAdapter.m in Sources */,
 				A3299CBF20F854110012CCE3 /* FlyweightUser.m in Sources */,
@@ -953,6 +982,7 @@
 				A3499FE420F5E33300E5DD40 /* ConcreteColleague2.m in Sources */,
 				A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */,
 				A389CD5F20A1A3C8004F1A59 /* CalculatorOperation.m in Sources */,
+				A34A771020FC87C4006AF8A6 /* Expression.m in Sources */,
 				A3499FD520F5DB9C00E5DD40 /* Mediator.m in Sources */,
 				A319483820AC542F0084A201 /* GamePersonArm.m in Sources */,
 				A389CD5A20A1A3C8004F1A59 /* Proxy.m in Sources */,
@@ -1004,6 +1034,7 @@
 				A319484A20AC545A0084A201 /* NBAObserver.m in Sources */,
 				A389CD6020A1A3C8004F1A59 /* CalculatorFactory.m in Sources */,
 				A389CD5E20A1A3C8004F1A59 /* CalculatorAlgorithm.m in Sources */,
+				A34A770D20FC874D006AF8A6 /* PlayerContext.m in Sources */,
 				A389CD4B20A1A3C8004F1A59 /* CashStrategyRebate.m in Sources */,
 				A319488E20AC54D40084A201 /* AduioPlayer.m in Sources */,
 				A3299CC220F854460012CCE3 /* ConcreteWebSite.m in Sources */,
@@ -1036,6 +1067,7 @@
 				A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */,
 				A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */,
 				A319486A20AC54920084A201 /* SqlserverUser.m in Sources */,
+				A34A771320FC8D60006AF8A6 /* Note.m in Sources */,
 				A389CCFB20A1A32A004F1A59 /* main.m in Sources */,
 				A389CD4C20A1A3C8004F1A59 /* CashContextFactory.m in Sources */,
 				A389CD6620A1A3C8004F1A59 /* ExampleManager.m in Sources */,

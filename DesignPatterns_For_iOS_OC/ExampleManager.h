@@ -54,6 +54,8 @@
 + (void)mediatorPattern;
 //享元模式
 + (void)flyweightPattern;
+//解释器模式
++ (void)interpreterPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

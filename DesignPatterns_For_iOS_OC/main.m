@@ -33,6 +33,7 @@ int main(int argc, const char * argv[]) {
         [ExampleManager executeMethod:@selector(chainOfResponsibiltityPattern) desc:@"职责链模式"];
         [ExampleManager executeMethod:@selector(mediatorPattern) desc:@"中介者模式"];
         [ExampleManager executeMethod:@selector(flyweightPattern) desc:@"享元模式"];
+        [ExampleManager executeMethod:@selector(interpreterPattern) desc:@"解释器模式"];
     }
     return 0;
 }
