@@ -89,6 +89,13 @@
 #import "Note.h"
 #import "Scale.h"
 
+#import "ObjectStruct.h"
+#import "SuccessAction.h"
+#import "FailAction.h"
+#import "AmativenessAction.h"
+#import "VWomen.h"
+#import "VMan.h"
+
 @implementation ExampleManager
 
 //简单工厂模式
@@ -452,6 +459,25 @@
         }
         [expression interpret:context];
     }
+}
+
+//访问者模式
++ (void)visitorPattern{
+    ObjectStruct *oStruct = [ObjectStruct new];
+    [oStruct attach:[VMan new]];
+    [oStruct attach:[VWomen new]];
+    
+    //成功时的反应
+    SuccessAction *successAction = [SuccessAction new];
+    [oStruct display:successAction];
+    
+    //失败时的反应
+    FailAction *failAction = [FailAction new];
+    [oStruct display:failAction];
+    
+    //恋爱时的反应
+    AmativenessAction *amAction = [AmativenessAction new];
+    [oStruct display:amAction];
 }
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc{

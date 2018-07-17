@@ -56,6 +56,8 @@
 + (void)flyweightPattern;
 //解释器模式
 + (void)interpreterPattern;
+//访问者模式
++ (void)visitorPattern;
 
 + (void)executeMethod:(SEL)sel desc:(NSString *)desc;
 

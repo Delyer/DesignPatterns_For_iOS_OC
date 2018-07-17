@@ -111,6 +111,14 @@
 		A3BB383220BBFF1B00580C4B /* CommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB383120BBFF1B00580C4B /* CommonManager.m */; };
 		A3BB383520BC00A000580C4B /* MajordomoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB383420BC00A000580C4B /* MajordomoManager.m */; };
 		A3BB383820BC00DC00580C4B /* GeneralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BB383720BC00DC00580C4B /* GeneralManager.m */; };
+		A3FFEF5320FDCC820017BD55 /* VPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEF5220FDCC820017BD55 /* VPerson.m */; };
+		A3FFEF5620FDCC960017BD55 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEF5520FDCC960017BD55 /* Action.m */; };
+		A3FFEF5920FDCCF70017BD55 /* VWomen.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEF5820FDCCF70017BD55 /* VWomen.m */; };
+		A3FFEF5C20FDCD000017BD55 /* VMan.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEF5B20FDCD000017BD55 /* VMan.m */; };
+		A3FFEF5F20FDCE3F0017BD55 /* SuccessAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEF5E20FDCE3F0017BD55 /* SuccessAction.m */; };
+		A3FFEF6220FDCEE50017BD55 /* FailAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEF6120FDCEE50017BD55 /* FailAction.m */; };
+		A3FFEF6520FDCF4A0017BD55 /* AmativenessAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEF6420FDCF4A0017BD55 /* AmativenessAction.m */; };
+		A3FFEF6820FDCFBA0017BD55 /* ObjectStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FFEF6720FDCFBA0017BD55 /* ObjectStruct.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -343,6 +351,22 @@
 		A3BB383420BC00A000580C4B /* MajordomoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MajordomoManager.m; sourceTree = "<group>"; };
 		A3BB383620BC00DC00580C4B /* GeneralManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneralManager.h; sourceTree = "<group>"; };
 		A3BB383720BC00DC00580C4B /* GeneralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneralManager.m; sourceTree = "<group>"; };
+		A3FFEF5120FDCC820017BD55 /* VPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPerson.h; sourceTree = "<group>"; };
+		A3FFEF5220FDCC820017BD55 /* VPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPerson.m; sourceTree = "<group>"; };
+		A3FFEF5420FDCC960017BD55 /* Action.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Action.h; sourceTree = "<group>"; };
+		A3FFEF5520FDCC960017BD55 /* Action.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Action.m; sourceTree = "<group>"; };
+		A3FFEF5720FDCCF70017BD55 /* VWomen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWomen.h; sourceTree = "<group>"; };
+		A3FFEF5820FDCCF70017BD55 /* VWomen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWomen.m; sourceTree = "<group>"; };
+		A3FFEF5A20FDCD000017BD55 /* VMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMan.h; sourceTree = "<group>"; };
+		A3FFEF5B20FDCD000017BD55 /* VMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMan.m; sourceTree = "<group>"; };
+		A3FFEF5D20FDCE3F0017BD55 /* SuccessAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuccessAction.h; sourceTree = "<group>"; };
+		A3FFEF5E20FDCE3F0017BD55 /* SuccessAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuccessAction.m; sourceTree = "<group>"; };
+		A3FFEF6020FDCEE50017BD55 /* FailAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FailAction.h; sourceTree = "<group>"; };
+		A3FFEF6120FDCEE50017BD55 /* FailAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailAction.m; sourceTree = "<group>"; };
+		A3FFEF6320FDCF4A0017BD55 /* AmativenessAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmativenessAction.h; sourceTree = "<group>"; };
+		A3FFEF6420FDCF4A0017BD55 /* AmativenessAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmativenessAction.m; sourceTree = "<group>"; };
+		A3FFEF6620FDCFBA0017BD55 /* ObjectStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectStruct.h; sourceTree = "<group>"; };
+		A3FFEF6720FDCFBA0017BD55 /* ObjectStruct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectStruct.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -721,6 +745,7 @@
 				A3499FCD20F5DA9300E5DD40 /* 21.中介者模式 */,
 				A3299CB320F852BF0012CCE3 /* 22.享元模式 */,
 				A34A770720FC7FC8006AF8A6 /* 23.解释器模式 */,
+				A3FFEF5020FDCC0C0017BD55 /* 24.访问者模式 */,
 				A389CD3620A1A3C7004F1A59 /* ExampleManager.h */,
 				A389CD4920A1A3C8004F1A59 /* ExampleManager.m */,
 				A389CCFA20A1A32A004F1A59 /* main.m */,
@@ -915,6 +940,29 @@
 			path = "20.职责链模式";
 			sourceTree = "<group>";
 		};
+		A3FFEF5020FDCC0C0017BD55 /* 24.访问者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A3FFEF5120FDCC820017BD55 /* VPerson.h */,
+				A3FFEF5220FDCC820017BD55 /* VPerson.m */,
+				A3FFEF5720FDCCF70017BD55 /* VWomen.h */,
+				A3FFEF5820FDCCF70017BD55 /* VWomen.m */,
+				A3FFEF5A20FDCD000017BD55 /* VMan.h */,
+				A3FFEF5B20FDCD000017BD55 /* VMan.m */,
+				A3FFEF5420FDCC960017BD55 /* Action.h */,
+				A3FFEF5520FDCC960017BD55 /* Action.m */,
+				A3FFEF5D20FDCE3F0017BD55 /* SuccessAction.h */,
+				A3FFEF5E20FDCE3F0017BD55 /* SuccessAction.m */,
+				A3FFEF6020FDCEE50017BD55 /* FailAction.h */,
+				A3FFEF6120FDCEE50017BD55 /* FailAction.m */,
+				A3FFEF6320FDCF4A0017BD55 /* AmativenessAction.h */,
+				A3FFEF6420FDCF4A0017BD55 /* AmativenessAction.m */,
+				A3FFEF6620FDCFBA0017BD55 /* ObjectStruct.h */,
+				A3FFEF6720FDCFBA0017BD55 /* ObjectStruct.m */,
+			);
+			path = "24.访问者模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -975,9 +1023,11 @@
 				A3499FD820F5DBB200E5DD40 /* Colleague.m in Sources */,
 				A389CD6120A1A3C8004F1A59 /* CalculateMulFactory.m in Sources */,
 				A34A771920FC8EF4006AF8A6 /* Scale.m in Sources */,
+				A3FFEF5320FDCC820017BD55 /* VPerson.m in Sources */,
 				A319487C20AC54AF0084A201 /* NoonState.m in Sources */,
 				A319489020AC54D40084A201 /* MediaAdapter.m in Sources */,
 				A3299CBF20F854110012CCE3 /* FlyweightUser.m in Sources */,
+				A3FFEF6220FDCEE50017BD55 /* FailAction.m in Sources */,
 				A319488F20AC54D40084A201 /* Mp4Player.m in Sources */,
 				A3499FE420F5E33300E5DD40 /* ConcreteColleague2.m in Sources */,
 				A389CD6520A1A3C8004F1A59 /* CalculateSubFactory.m in Sources */,
@@ -991,9 +1041,11 @@
 				A303D54A20AD5CA800DBE65C /* HandsetNBrand.m in Sources */,
 				A319486320AC54920084A201 /* SQLDepartment.m in Sources */,
 				A303D53B20AD5A9500DBE65C /* HandsetSoft.m in Sources */,
+				A3FFEF6820FDCFBA0017BD55 /* ObjectStruct.m in Sources */,
 				A303D55720AD6F2800DBE65C /* BakeChickenWingCommand.m in Sources */,
 				A319486620AC54920084A201 /* SqlserverFactory.m in Sources */,
 				A319487D20AC54AF0084A201 /* AfternoonState.m in Sources */,
+				A3FFEF5C20FDCD000017BD55 /* VMan.m in Sources */,
 				A319486920AC54920084A201 /* AccessUser.m in Sources */,
 				A389CD6A20A1B565004F1A59 /* SubSystemOne.m in Sources */,
 				A389CD4F20A1A3C8004F1A59 /* Skills.m in Sources */,
@@ -1006,6 +1058,7 @@
 				A389CD7320A1B590004F1A59 /* Facade.m in Sources */,
 				A303D54120AD5B1100DBE65C /* HandsetGame.m in Sources */,
 				A319483C20AC542F0084A201 /* ThinPersonBuilder.m in Sources */,
+				A3FFEF5620FDCC960017BD55 /* Action.m in Sources */,
 				A303D55120AD6DC400DBE65C /* Command.m in Sources */,
 				A319481620AC4C5C0084A201 /* Iterator.m in Sources */,
 				A319487E20AC54AF0084A201 /* Work.m in Sources */,
@@ -1016,6 +1069,7 @@
 				A319481220AC1B500084A201 /* FinanceDepartment.m in Sources */,
 				A319486420AC54920084A201 /* SQLUser.m in Sources */,
 				A319483520AC542F0084A201 /* PersonBuilderDirector.m in Sources */,
+				A3FFEF5920FDCCF70017BD55 /* VWomen.m in Sources */,
 				A3BB383520BC00A000580C4B /* MajordomoManager.m in Sources */,
 				A3BB382C20BBFCC400580C4B /* Manager.m in Sources */,
 				A319483620AC542F0084A201 /* GamePersonLeg.m in Sources */,
@@ -1063,9 +1117,11 @@
 				A303D55A20AD6F7C00DBE65C /* Waiter.m in Sources */,
 				A3BB382F20BBFD4300580C4B /* Request.m in Sources */,
 				A3BB383820BC00DC00580C4B /* GeneralManager.m in Sources */,
+				A3FFEF5F20FDCE3F0017BD55 /* SuccessAction.m in Sources */,
 				A389CD5D20A1A3C8004F1A59 /* PrototypePerson.m in Sources */,
 				A389CD5520A1A3C8004F1A59 /* BigTrouser.m in Sources */,
 				A389CD5720A1A3C8004F1A59 /* TestPaperB.m in Sources */,
+				A3FFEF6520FDCF4A0017BD55 /* AmativenessAction.m in Sources */,
 				A319486A20AC54920084A201 /* SqlserverUser.m in Sources */,
 				A34A771320FC8D60006AF8A6 /* Note.m in Sources */,
 				A389CCFB20A1A32A004F1A59 /* main.m in Sources */,
